@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="0" />
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="2" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="5">
+        <txtTestName Ref="3" type="Text" isKey="true">
+          <Brush>White</Brush>
+          <ClientRectangle>2.6,0.2,3.2,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Tahoma,9,Bold</Font>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>txtTestName</Name>
+          <Page isRef="2" />
+          <Parent isRef="2" />
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </txtTestName>
+        <txtStudentNumber Ref="4" type="Text" isKey="true">
+          <Brush>White</Brush>
+          <ClientRectangle>3.1,0.9,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Tahoma,9,Bold</Font>
+          <Guid>a6a0bb50e281494bbdfbec54403c0b8f</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>txtStudentNumber</Name>
+          <Page isRef="2" />
+          <Parent isRef="2" />
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </txtStudentNumber>
+        <txtLoginCode Ref="5" type="Text" isKey="true">
+          <Brush>White</Brush>
+          <ClientRectangle>3.1,1.6,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Tahoma,9,Bold</Font>
+          <Guid>6151e2870cbe4ed0a599f9b8d8cee16d</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>txtLoginCode</Name>
+          <Page isRef="2" />
+          <Parent isRef="2" />
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </txtLoginCode>
+        <Text1 Ref="6" type="Text" isKey="true">
+          <Brush>White</Brush>
+          <ClientRectangle>5.8,0.9,1.8,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Tahoma,9,Bold</Font>
+          <Guid>e992fd84e4944f6ea7eb2d0cb0cee4c9</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text1</Name>
+          <Page isRef="2" />
+          <Parent isRef="2" />
+          <Text>شماره داوطلبی</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text1>
+        <Text2 Ref="7" type="Text" isKey="true">
+          <Brush>White</Brush>
+          <ClientRectangle>5.8,1.6,1.8,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Tahoma,9,Bold</Font>
+          <Guid>9f0c525bf32e42f59a707e5e41040ce5</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text2</Name>
+          <Page isRef="2" />
+          <Parent isRef="2" />
+          <Text>کد ورود</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text2>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>54d13a2df772401cbfa1ce00e53b3522</Guid>
+      <Margins>0.39,0.39,0.39,0.39</Margins>
+      <Name>Page1</Name>
+      <PageHeight>11</PageHeight>
+      <PageWidth>8.5</PageWidth>
+      <PaperSize>Letter</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="8" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="9" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>10/23/2016 12:32:10 AM</ReportChanged>
+  <ReportCreated>10/23/2016 12:29:42 AM</ReportCreated>
+  <ReportFile>C:\Users\Dr.Askari\Desktop\ReportStudentNumber.mrt</ReportFile>
+  <ReportGuid>712e21673db84ff9a06b06c54e61c295</ReportGuid>
+  <ReportImage isNull="true" />
+  <ReportName>Report</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2017.2.2.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>
