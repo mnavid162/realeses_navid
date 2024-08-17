@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="21.4" version="21.4" Modules="professional" RootPath="." Language="en" Id="{2DB52E68-8C22-4CEF-A742-449C5048D1B9}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;MsiDriverPackagesComponent;UserAccountsComponent;ScheduledTasksComponent;SqlConnectionComponent;AutorunComponent;FirewallExceptionComponent;GameUxComponent;MsiDirectEditorComponent;SharePointSlnComponent;SilverlightSlnComponent;MultipleInstancesComponent;SccmComponent;ActSyncAppComponent;CPLAppletComponent;FixupComponent;MsiXDiffComponent;MsixManifestEditorComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_FINDEXE_TITLE" Value="Select the installation package for [|ProductName]" ValueLocId="AI.Property.FindExeTitle"/>
+    <ROW Property="AI_PREDEF_LCONDS_PROPS" Value="AI_DETECTED_DOTNET_VERSION;AI_DETECTED_INTERNET_CONNECTION"/>
+    <ROW Property="AI_REQUIRED_DOTNET_DISPLAY" MultiBuildValue="DefaultBuild:4.5" ValueLocId="-"/>
+    <ROW Property="AI_REQUIRED_DOTNET_VERSION" MultiBuildValue="DefaultBuild:4.5" ValueLocId="-"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPNOREPAIR" MultiBuildValue="DefaultBuild:1"/>
+    <ROW Property="AiEmbeddedUI" Value="1"/>
+    <ROW Property="AiWinUI" Value="1"/>
+    <ROW Property="Manufacturer" Value="navid"/>
+    <ROW Property="ProductCode" Value="1033:{432A7728-89A8-497F-9F88-5254D0325B11} 1065:{432A7728-89A8-497F-9F88-5254D0325B11} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="azmoon saz v1.1"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Options="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
+    <ROW Property="UpgradeCode" Value="{3AFD7B0A-595A-42BC-B0C8-28C78CAE1479}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60" MultiBuildValue="DefaultBuild:Windows Vista/Server 2008" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60Display" MultiBuildValue="DefaultBuild:Windows Vista/Server 2008" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="ATF.Repository.2.0.2.4_Dir" Directory_Parent="packages_Dir" DefaultDir="ATFREP~1.4|ATF.Repository.2.0.2.4"/>
+    <ROW Directory="BouncyCastle.1.8.9_Dir" Directory_Parent="packages_Dir" DefaultDir="BOUNCY~1.9|BouncyCastle.1.8.9"/>
+    <ROW Directory="Castle.Core.5.1.1_Dir" Directory_Parent="packages_Dir" DefaultDir="CASTLE~1.1|Castle.Core.5.1.1"/>
+    <ROW Directory="Common.Logging.3.4.1_Dir" Directory_Parent="packages_Dir" DefaultDir="COMMON~1.1|Common.Logging.3.4.1"/>
+    <ROW Directory="Common.Logging.Core.3.4.1_Dir" Directory_Parent="packages_Dir" DefaultDir="COMMON~2.1|Common.Logging.Core.3.4.1"/>
+    <ROW Directory="CreatioSDK.8.1.0.6716_Dir" Directory_Parent="packages_Dir" DefaultDir="CREATI~1.671|CreatioSDK.8.1.0.6716"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="DocumentFormat.OpenXml.3.0.0_Dir" Directory_Parent="packages_Dir" DefaultDir="DOCUME~1.0|DocumentFormat.OpenXml.3.0.0"/>
+    <ROW Directory="DocumentFormat.OpenXml.Framewor_Dir" Directory_Parent="packages_Dir" DefaultDir="DOCUME~2.0|DocumentFormat.OpenXml.Framework.3.0.0"/>
+    <ROW Directory="EntityFramework.6.4.4_Dir" Directory_Parent="packages_Dir" DefaultDir="ENTITY~1.4|EntityFramework.6.4.4"/>
+    <ROW Directory="EntityFramework.6.5.1_Dir" Directory_Parent="packages_Dir" DefaultDir="ENTITY~1.1|EntityFramework.6.5.1"/>
+    <ROW Directory="Microsoft.Extensions.Dependency_Dir" Directory_Parent="packages_Dir" DefaultDir="MICROS~1.6|Microsoft.Extensions.DependencyInjection.Abstractions.3.1.6"/>
+    <ROW Directory="Release_Dir" Directory_Parent="APPDIR" DefaultDir="Release"/>
+    <ROW Directory="Reports_Dir" Directory_Parent="Release_Dir" DefaultDir="Reports"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="aa_Dir" Directory_Parent="Release_Dir" DefaultDir="aa"/>
+    <ROW Directory="any_10_Dir" Directory_Parent="net6.0_8_Dir" DefaultDir="any"/>
+    <ROW Directory="any_6_Dir" Directory_Parent="net45_4_Dir" DefaultDir="any"/>
+    <ROW Directory="any_7_Dir" Directory_Parent="netcoreapp3.0_4_Dir" DefaultDir="any"/>
+    <ROW Directory="any_8_Dir" Directory_Parent="net40_20_Dir" DefaultDir="any"/>
+    <ROW Directory="any_9_Dir" Directory_Parent="net45_6_Dir" DefaultDir="any"/>
+    <ROW Directory="any_Dir" Directory_Parent="net40_17_Dir" DefaultDir="any"/>
+    <ROW Directory="buildTransitive_2_Dir" Directory_Parent="EntityFramework.6.5.1_Dir" DefaultDir="BUILDT~1|buildTransitive"/>
+    <ROW Directory="buildTransitive_Dir" Directory_Parent="EntityFramework.6.4.4_Dir" DefaultDir="BUILDT~1|buildTransitive"/>
+    <ROW Directory="build_2_Dir" Directory_Parent="EntityFramework.6.5.1_Dir" DefaultDir="build"/>
+    <ROW Directory="build_Dir" Directory_Parent="EntityFramework.6.4.4_Dir" DefaultDir="build"/>
+    <ROW Directory="content_2_Dir" Directory_Parent="EntityFramework.6.5.1_Dir" DefaultDir="content"/>
+    <ROW Directory="content_Dir" Directory_Parent="EntityFramework.6.4.4_Dir" DefaultDir="content"/>
+    <ROW Directory="creatio.client.1.0.24_Dir" Directory_Parent="packages_Dir" DefaultDir="CREATI~1.24|creatio.client.1.0.24"/>
+    <ROW Directory="iTextSharp.5.5.13.3_Dir" Directory_Parent="packages_Dir" DefaultDir="ITEXTS~1.3|iTextSharp.5.5.13.3"/>
+    <ROW Directory="lib_13_Dir" Directory_Parent="BouncyCastle.1.8.9_Dir" DefaultDir="lib"/>
+    <ROW Directory="lib_14_Dir" Directory_Parent="Castle.Core.5.1.1_Dir" DefaultDir="lib"/>
+    <ROW Directory="lib_15_Dir" Directory_Parent="Common.Logging.3.4.1_Dir" DefaultDir="lib"/>
+    <ROW Directory="lib_16_Dir" Directory_Parent="Common.Logging.Core.3.4.1_Dir" DefaultDir="lib"/>
+    <ROW Directory="lib_17_Dir" Directory_Parent="creatio.client.1.0.24_Dir" DefaultDir="lib"/>
+    <ROW Directory="lib_18_Dir" Directory_Parent="CreatioSDK.8.1.0.6716_Dir" DefaultDir="lib"/>
+    <ROW Directory="lib_19_Dir" Directory_Parent="DocumentFormat.OpenXml.3.0.0_Dir" DefaultDir="lib"/>
+    <ROW Directory="lib_20_Dir" Directory_Parent="DocumentFormat.OpenXml.Framewor_Dir" DefaultDir="lib"/>
+    <ROW Directory="lib_21_Dir" Directory_Parent="EntityFramework.6.4.4_Dir" DefaultDir="lib"/>
+    <ROW Directory="lib_22_Dir" Directory_Parent="EntityFramework.6.5.1_Dir" DefaultDir="lib"/>
+    <ROW Directory="lib_23_Dir" Directory_Parent="iTextSharp.5.5.13.3_Dir" DefaultDir="lib"/>
+    <ROW Directory="lib_24_Dir" Directory_Parent="Microsoft.Extensions.Dependency_Dir" DefaultDir="lib"/>
+    <ROW Directory="lib_Dir" Directory_Parent="ATF.Repository.2.0.2.4_Dir" DefaultDir="lib"/>
+    <ROW Directory="net35_3_Dir" Directory_Parent="lib_19_Dir" DefaultDir="net35"/>
+    <ROW Directory="net35_4_Dir" Directory_Parent="lib_20_Dir" DefaultDir="net35"/>
+    <ROW Directory="net35_Dir" Directory_Parent="lib_15_Dir" DefaultDir="net35"/>
+    <ROW Directory="net40_11_Dir" Directory_Parent="lib_16_Dir" DefaultDir="net40"/>
+    <ROW Directory="net40_12_Dir" Directory_Parent="lib_18_Dir" DefaultDir="net40"/>
+    <ROW Directory="net40_13_Dir" Directory_Parent="lib_19_Dir" DefaultDir="net40"/>
+    <ROW Directory="net40_14_Dir" Directory_Parent="lib_20_Dir" DefaultDir="net40"/>
+    <ROW Directory="net40_15_Dir" Directory_Parent="content_Dir" DefaultDir="net40"/>
+    <ROW Directory="net40_16_Dir" Directory_Parent="lib_21_Dir" DefaultDir="net40"/>
+    <ROW Directory="net40_17_Dir" Directory_Parent="tools_Dir" DefaultDir="net40"/>
+    <ROW Directory="net40_18_Dir" Directory_Parent="content_2_Dir" DefaultDir="net40"/>
+    <ROW Directory="net40_19_Dir" Directory_Parent="lib_22_Dir" DefaultDir="net40"/>
+    <ROW Directory="net40_20_Dir" Directory_Parent="tools_2_Dir" DefaultDir="net40"/>
+    <ROW Directory="net40_Dir" Directory_Parent="lib_15_Dir" DefaultDir="net40"/>
+    <ROW Directory="net45_4_Dir" Directory_Parent="tools_Dir" DefaultDir="net45"/>
+    <ROW Directory="net45_5_Dir" Directory_Parent="lib_22_Dir" DefaultDir="net45"/>
+    <ROW Directory="net45_6_Dir" Directory_Parent="tools_2_Dir" DefaultDir="net45"/>
+    <ROW Directory="net45_Dir" Directory_Parent="lib_21_Dir" DefaultDir="net45"/>
+    <ROW Directory="net462_Dir" Directory_Parent="lib_14_Dir" DefaultDir="net462"/>
+    <ROW Directory="net46_Dir" Directory_Parent="lib_20_Dir" DefaultDir="net46"/>
+    <ROW Directory="net6.0_5_Dir" Directory_Parent="lib_20_Dir" DefaultDir="net6.0"/>
+    <ROW Directory="net6.0_6_Dir" Directory_Parent="build_2_Dir" DefaultDir="net6.0"/>
+    <ROW Directory="net6.0_7_Dir" Directory_Parent="buildTransitive_2_Dir" DefaultDir="net6.0"/>
+    <ROW Directory="net6.0_8_Dir" Directory_Parent="tools_2_Dir" DefaultDir="net6.0"/>
+    <ROW Directory="net6.0_Dir" Directory_Parent="lib_14_Dir" DefaultDir="net6.0"/>
+    <ROW Directory="netcoreapp3.0_3_Dir" Directory_Parent="buildTransitive_Dir" DefaultDir="NETCOR~1.0|netcoreapp3.0"/>
+    <ROW Directory="netcoreapp3.0_4_Dir" Directory_Parent="tools_Dir" DefaultDir="NETCOR~1.0|netcoreapp3.0"/>
+    <ROW Directory="netcoreapp3.0_Dir" Directory_Parent="build_Dir" DefaultDir="NETCOR~1.0|netcoreapp3.0"/>
+    <ROW Directory="netstandard1.0_Dir" Directory_Parent="lib_16_Dir" DefaultDir="NETSTA~1.0|netstandard1.0"/>
+    <ROW Directory="netstandard1.3_Dir" Directory_Parent="lib_15_Dir" DefaultDir="NETSTA~1.3|netstandard1.3"/>
+    <ROW Directory="netstandard2.0_10_Dir" Directory_Parent="lib_24_Dir" DefaultDir="NETSTA~1.0|netstandard2.0"/>
+    <ROW Directory="netstandard2.0_6_Dir" Directory_Parent="lib_14_Dir" DefaultDir="NETSTA~1.0|netstandard2.0"/>
+    <ROW Directory="netstandard2.0_7_Dir" Directory_Parent="lib_17_Dir" DefaultDir="NETSTA~1.0|netstandard2.0"/>
+    <ROW Directory="netstandard2.0_8_Dir" Directory_Parent="lib_19_Dir" DefaultDir="NETSTA~1.0|netstandard2.0"/>
+    <ROW Directory="netstandard2.0_9_Dir" Directory_Parent="lib_20_Dir" DefaultDir="NETSTA~1.0|netstandard2.0"/>
+    <ROW Directory="netstandard2.0_Dir" Directory_Parent="lib_Dir" DefaultDir="NETSTA~1.0|netstandard2.0"/>
+    <ROW Directory="netstandard2.1_3_Dir" Directory_Parent="lib_21_Dir" DefaultDir="NETSTA~1.1|netstandard2.1"/>
+    <ROW Directory="netstandard2.1_4_Dir" Directory_Parent="lib_22_Dir" DefaultDir="NETSTA~1.1|netstandard2.1"/>
+    <ROW Directory="netstandard2.1_Dir" Directory_Parent="lib_14_Dir" DefaultDir="NETSTA~1.1|netstandard2.1"/>
+    <ROW Directory="packages_Dir" Directory_Parent="APPDIR" DefaultDir="packages"/>
+    <ROW Directory="portablewinnet40sl40wp7wpa81_Dir" Directory_Parent="lib_16_Dir" DefaultDir="PORTAB~1|portable-win+net40+sl40+wp7+wpa81"/>
+    <ROW Directory="tools_2_Dir" Directory_Parent="EntityFramework.6.5.1_Dir" DefaultDir="tools"/>
+    <ROW Directory="tools_Dir" Directory_Parent="EntityFramework.6.4.4_Dir" DefaultDir="tools"/>
+    <ROW Directory="winarm64_2_Dir" Directory_Parent="net45_6_Dir" DefaultDir="WIN-AR~1|win-arm64"/>
+    <ROW Directory="winarm64_Dir" Directory_Parent="net40_20_Dir" DefaultDir="WIN-AR~1|win-arm64"/>
+    <ROW Directory="winx86_4_Dir" Directory_Parent="net45_4_Dir" DefaultDir="win-x86"/>
+    <ROW Directory="winx86_5_Dir" Directory_Parent="net40_20_Dir" DefaultDir="win-x86"/>
+    <ROW Directory="winx86_6_Dir" Directory_Parent="net45_6_Dir" DefaultDir="win-x86"/>
+    <ROW Directory="winx86_Dir" Directory_Parent="net40_17_Dir" DefaultDir="win-x86"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AI_ExePath" ComponentId="{45C031F9-79C9-4CC6-84DD-880E1A734B9D}" Directory_="APPDIR" Attributes="4" KeyPath="AI_ExePath"/>
+    <ROW Component="APPDIR" ComponentId="{2B9CD8AD-7C12-4976-A4A0-160135805758}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="ATF.Repository.dll" ComponentId="{2D4834D5-B465-441E-B4AE-8DB9808DB048}" Directory_="netstandard2.0_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="ATF.Repository.dll"/>
+    <ROW Component="App.config.install.xdt" ComponentId="{7E0B48DE-5ACB-43C4-B834-BC4AC8F3DCC1}" Directory_="net40_15_Dir" Attributes="0" KeyPath="App.config.install.xdt" Type="0"/>
+    <ROW Component="App.config.install.xdt_2" ComponentId="{E11E1A73-EAF6-4BB0-8D74-589AB4FB2A22}" Directory_="net40_18_Dir" Attributes="0" KeyPath="App.config.install.xdt_2" Type="0"/>
+    <ROW Component="Azmoon.exe" ComponentId="{0CE0788A-9A1A-401D-BB77-F33E04425D52}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Azmoon.exe"/>
+    <ROW Component="Azmoon.exe.config" ComponentId="{31A3FA53-DD1B-4DAD-91AF-A9221EF6BC59}" Directory_="Release_Dir" Attributes="0" KeyPath="Azmoon.exe.config" Type="0"/>
+    <ROW Component="Azmoon.exe_4" ComponentId="{486ADFB5-4B2F-44FE-8A31-A2B7EB4A0D3D}" Directory_="APPDIR" Attributes="0" Condition="NOT VersionNT64" KeyPath="Azmoon.exe_4"/>
+    <ROW Component="Azmoon.pdb" ComponentId="{DEF41DAB-E52B-4F0C-9CEE-6BB36B184BD3}" Directory_="Release_Dir" Attributes="0" KeyPath="Azmoon.pdb" Type="4"/>
+    <ROW Component="Azmoon.resources.dll" ComponentId="{4951C9C2-D4B9-4373-974F-1343C47A2DE9}" Directory_="aa_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Azmoon.resources.dll"/>
+    <ROW Component="Azmoon.vshost.exe" ComponentId="{16CBB96F-99BD-4F37-9D4B-A958E1050073}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Azmoon.vshost.exe"/>
+    <ROW Component="BouncyCastle.Crypto.dll" ComponentId="{CDCEE3DA-5946-4CE5-9573-CB26DB6EE7D8}" Directory_="lib_13_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="BouncyCastle.Crypto.dll"/>
+    <ROW Component="BouncyCastle.Crypto.dll_4" ComponentId="{AEC15DC0-3E8A-437C-A274-A6074549F9D1}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="BouncyCastle.Crypto.dll_4"/>
+    <ROW Component="Castle.Core.dll" ComponentId="{D58EE1C6-5004-4549-8711-9392BB68E615}" Directory_="net462_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Castle.Core.dll"/>
+    <ROW Component="Castle.Core.dll_5" ComponentId="{2EE2DBF7-A2F6-40FB-88CC-6BA8AE24A979}" Directory_="net6.0_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Castle.Core.dll_5"/>
+    <ROW Component="Castle.Core.dll_6" ComponentId="{355E6627-87D3-4290-BDD7-6294950859C2}" Directory_="netstandard2.0_6_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Castle.Core.dll_6"/>
+    <ROW Component="Castle.Core.dll_7" ComponentId="{6BE1E33D-FBB1-4004-8C9F-789FA8DD9767}" Directory_="netstandard2.1_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Castle.Core.dll_7"/>
+    <ROW Component="Castle.Core.dll_9" ComponentId="{EF567E4D-70B0-4E12-B64F-EEAA6F921F35}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Castle.Core.dll_9"/>
+    <ROW Component="Castle.Core.xml" ComponentId="{0EE1845F-937F-456E-A42E-24580C06DAE6}" Directory_="net462_Dir" Attributes="0" KeyPath="Castle.Core.xml" Type="0"/>
+    <ROW Component="Castle.Core.xml_4" ComponentId="{A203ACE0-FE13-43AD-B031-E4E7388075F3}" Directory_="net6.0_Dir" Attributes="0" KeyPath="Castle.Core.xml_5" Type="0"/>
+    <ROW Component="Castle.Core.xml_5" ComponentId="{6AB96C5F-7111-49C1-9F0A-76EE1F51B564}" Directory_="netstandard2.0_6_Dir" Attributes="0" KeyPath="Castle.Core.xml_6" Type="0"/>
+    <ROW Component="Castle.Core.xml_6" ComponentId="{AFB19A35-B541-4760-AE87-8C619BC53B9F}" Directory_="netstandard2.1_Dir" Attributes="0" KeyPath="Castle.Core.xml_7" Type="0"/>
+    <ROW Component="Common.Logging.Core.XML" ComponentId="{71AA6645-3A2D-4E16-AC52-FC04A1883AFC}" Directory_="net40_11_Dir" Attributes="0" KeyPath="Common.Logging.Core.XML" Type="0"/>
+    <ROW Component="Common.Logging.Core.XML_2" ComponentId="{B2E9AF09-DC75-4421-8D99-27C86860CA1A}" Directory_="portablewinnet40sl40wp7wpa81_Dir" Attributes="0" KeyPath="Common.Logging.Core.XML_5" Type="0"/>
+    <ROW Component="Common.Logging.Core.dll" ComponentId="{EFD0A7EC-58A5-419C-999A-A5AACEBD3A70}" Directory_="net40_11_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Common.Logging.Core.dll"/>
+    <ROW Component="Common.Logging.Core.dll_4" ComponentId="{301C36A0-0479-4030-A6A7-F9E197A67CB6}" Directory_="netstandard1.0_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Common.Logging.Core.dll_4"/>
+    <ROW Component="Common.Logging.Core.dll_5" ComponentId="{CAC314B5-7B57-45BE-8D3E-E543EB43C2B5}" Directory_="portablewinnet40sl40wp7wpa81_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Common.Logging.Core.dll_5"/>
+    <ROW Component="Common.Logging.Core.dll_7" ComponentId="{485F087E-AEB9-4F9C-A44A-61A7E093FA2D}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Common.Logging.Core.dll_7"/>
+    <ROW Component="Common.Logging.Core.pdb" ComponentId="{401128F3-2FC6-4115-815C-275FD7EE9762}" Directory_="netstandard1.0_Dir" Attributes="0" KeyPath="Common.Logging.Core.pdb_4" Type="4"/>
+    <ROW Component="Common.Logging.Core.pdb_1" ComponentId="{AEB607AC-7BBC-4FBC-B1BE-205B8E2172B2}" Directory_="portablewinnet40sl40wp7wpa81_Dir" Attributes="0" KeyPath="Common.Logging.Core.pdb_5" Type="4"/>
+    <ROW Component="Common.Logging.Core.pdb_2" ComponentId="{7B8EF497-2EF6-46D2-BA10-C33A59ABC583}" Directory_="net40_11_Dir" Attributes="0" KeyPath="Common.Logging.Core.pdb" Type="4"/>
+    <ROW Component="Common.Logging.Core.pdb_3" ComponentId="{34D6A3C7-3715-49C4-83F8-0EB79171A304}" Directory_="Release_Dir" Attributes="0" KeyPath="Common.Logging.Core.pdb_7" Type="4"/>
+    <ROW Component="Common.Logging.Core.xml" ComponentId="{AE2AE069-D49A-4C69-B68E-3D6A3CCEB962}" Directory_="netstandard1.0_Dir" Attributes="0" KeyPath="Common.Logging.Core.xml_4" Type="0"/>
+    <ROW Component="Common.Logging.dll" ComponentId="{85E789ED-6443-4AEF-A5C9-705AC91256A6}" Directory_="net35_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Common.Logging.dll"/>
+    <ROW Component="Common.Logging.dll_4" ComponentId="{5EA83659-A838-4606-AB7F-F7AEC6C91969}" Directory_="net40_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Common.Logging.dll_4"/>
+    <ROW Component="Common.Logging.dll_5" ComponentId="{16D06CF1-9A94-4FFF-B404-745250753660}" Directory_="netstandard1.3_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Common.Logging.dll_5"/>
+    <ROW Component="Common.Logging.dll_7" ComponentId="{CD0F9E20-9B3D-4FD5-B007-009310FA7F6A}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Common.Logging.dll_7"/>
+    <ROW Component="Common.Logging.pdb" ComponentId="{81A50BE8-3E09-41A9-AC88-C87ABB9A9C50}" Directory_="netstandard1.3_Dir" Attributes="0" KeyPath="Common.Logging.pdb_5" Type="4"/>
+    <ROW Component="Common.Logging.pdb_1" ComponentId="{0F2E9C6A-02E4-4020-BD4F-4416468F2B76}" Directory_="net35_Dir" Attributes="0" KeyPath="Common.Logging.pdb" Type="4"/>
+    <ROW Component="Common.Logging.pdb_2" ComponentId="{F898BB92-EBA9-442D-9679-1BE6A00720D7}" Directory_="net40_Dir" Attributes="0" KeyPath="Common.Logging.pdb_4" Type="4"/>
+    <ROW Component="Common.Logging.pdb_3" ComponentId="{EE8BD327-99E2-491A-8530-5068C91F6A34}" Directory_="Release_Dir" Attributes="0" KeyPath="Common.Logging.pdb_7" Type="4"/>
+    <ROW Component="Common.Logging.xml" ComponentId="{90EBD254-4BE2-4EDB-822C-B9045292B422}" Directory_="net35_Dir" Attributes="0" KeyPath="Common.Logging.xml" Type="0"/>
+    <ROW Component="Common.Logging.xml_3" ComponentId="{7F04FC40-95D9-47D7-956B-9B6C63CF19F7}" Directory_="net40_Dir" Attributes="0" KeyPath="Common.Logging.xml_4" Type="0"/>
+    <ROW Component="Common.Logging.xml_4" ComponentId="{999067DA-28E6-4BEF-A97E-17B0E2C4EAE7}" Directory_="netstandard1.3_Dir" Attributes="0" KeyPath="Common.Logging.xml_5" Type="0"/>
+    <ROW Component="Creatio.Client.dll" ComponentId="{8ED11946-AB8E-4493-B88E-6CD5FDB70440}" Directory_="netstandard2.0_7_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Creatio.Client.dll"/>
+    <ROW Component="Creatio.Client.dll_3" ComponentId="{A49A7348-227C-4CB6-990B-36FD5057F5A8}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Creatio.Client.dll_3"/>
+    <ROW Component="Creatio.FeatureToggling.dll" ComponentId="{BA3698C5-B996-49BD-B925-57A3FCDAD937}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Creatio.FeatureToggling.dll"/>
+    <ROW Component="Creatio.FeatureToggling.dll_3" ComponentId="{FD9259F7-65DF-440B-837A-44E544E88E8B}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Creatio.FeatureToggling.dll_3"/>
+    <ROW Component="DateTimeSelector.dll" ComponentId="{8DDD396B-1976-4554-9206-6E2F723A38C5}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="DateTimeSelector.dll"/>
+    <ROW Component="DevComponents.DotNetBar.Charts.dll" ComponentId="{95BF8FF0-1D19-4F64-A1D8-079EACFCD338}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="DevComponents.DotNetBar.Charts.dll"/>
+    <ROW Component="DevComponents.DotNetBar2.dll" ComponentId="{4C32CFF4-D56F-4C04-A9FE-1FB70753AF12}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="DevComponents.DotNetBar2.dll"/>
+    <ROW Component="DevComponents.Instrumentation.dll" ComponentId="{2B56376B-C7A0-4828-8BD7-497B79127DD9}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="DevComponents.Instrumentation.dll"/>
+    <ROW Component="DocumentFormat.OpenXml.Framework.dll" ComponentId="{FDFCDEA3-7284-45A1-A3BD-3B694E85FEE9}" Directory_="net35_4_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="DocumentFormat.OpenXml.Framework.dll"/>
+    <ROW Component="DocumentFormat.OpenXml.Framework.dll_10" ComponentId="{E7BFEBBA-3CC4-47EF-9403-64F8E60CF0B2}" Directory_="netstandard2.0_9_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="DocumentFormat.OpenXml.Framework.dll_10"/>
+    <ROW Component="DocumentFormat.OpenXml.Framework.dll_12" ComponentId="{A32F1177-FF07-418A-A16A-76538F707544}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="DocumentFormat.OpenXml.Framework.dll_12"/>
+    <ROW Component="DocumentFormat.OpenXml.Framework.dll_7" ComponentId="{E5CC153B-9523-4D01-A190-2683B6E08E55}" Directory_="net40_14_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="DocumentFormat.OpenXml.Framework.dll_7"/>
+    <ROW Component="DocumentFormat.OpenXml.Framework.dll_8" ComponentId="{CBEA39F9-5B15-4279-ACCF-7EC7502310D7}" Directory_="net46_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="DocumentFormat.OpenXml.Framework.dll_8"/>
+    <ROW Component="DocumentFormat.OpenXml.Framework.dll_9" ComponentId="{B7907079-02E4-4505-86D1-8A692F1835C2}" Directory_="net6.0_5_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="DocumentFormat.OpenXml.Framework.dll_9"/>
+    <ROW Component="DocumentFormat.OpenXml.Framework.xml" ComponentId="{36D8D1DC-F160-46C7-9795-098E71117261}" Directory_="net35_4_Dir" Attributes="0" KeyPath="DocumentFormat.OpenXml.Framework.xml" Type="0"/>
+    <ROW Component="DocumentFormat.OpenXml.Framework.xml_5" ComponentId="{604FF665-0E0E-4656-B344-2ED0AAE99817}" Directory_="net40_14_Dir" Attributes="0" KeyPath="DocumentFormat.OpenXml.Framework.xml_7" Type="0"/>
+    <ROW Component="DocumentFormat.OpenXml.Framework.xml_6" ComponentId="{E8557A1E-CCA2-45F6-A721-46ADE941BE92}" Directory_="net46_Dir" Attributes="0" KeyPath="DocumentFormat.OpenXml.Framework.xml_8" Type="0"/>
+    <ROW Component="DocumentFormat.OpenXml.Framework.xml_7" ComponentId="{72F9286A-CB0E-4831-B567-E5CD3236564A}" Directory_="net6.0_5_Dir" Attributes="0" KeyPath="DocumentFormat.OpenXml.Framework.xml_9" Type="0"/>
+    <ROW Component="DocumentFormat.OpenXml.Framework.xml_8" ComponentId="{51DC47D8-EB7A-47F2-ADE1-AD9E9CF0A790}" Directory_="netstandard2.0_9_Dir" Attributes="0" KeyPath="DocumentFormat.OpenXml.Framework.xml_10" Type="0"/>
+    <ROW Component="DocumentFormat.OpenXml.dll" ComponentId="{BC24255A-0299-48B9-A242-F36B64900019}" Directory_="net35_3_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="DocumentFormat.OpenXml.dll"/>
+    <ROW Component="DocumentFormat.OpenXml.dll_5" ComponentId="{51BEB866-FA86-497A-B0F4-2999B4C685AB}" Directory_="net40_13_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="DocumentFormat.OpenXml.dll_5"/>
+    <ROW Component="DocumentFormat.OpenXml.dll_6" ComponentId="{1C8804E9-1562-41EF-9C85-6D93C8AED2A6}" Directory_="netstandard2.0_8_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="DocumentFormat.OpenXml.dll_6"/>
+    <ROW Component="DocumentFormat.OpenXml.dll_8" ComponentId="{CEBEE0A6-00E1-4988-BB73-47A1B7690539}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="DocumentFormat.OpenXml.dll_8"/>
+    <ROW Component="DocumentFormat.OpenXml.xml" ComponentId="{0E09C3DF-39BA-47B4-A8C2-6C0E497E6856}" Directory_="net35_3_Dir" Attributes="0" KeyPath="DocumentFormat.OpenXml.xml" Type="0"/>
+    <ROW Component="DocumentFormat.OpenXml.xml_3" ComponentId="{C7911DB0-A942-4971-91F3-F84256474911}" Directory_="net40_13_Dir" Attributes="0" KeyPath="DocumentFormat.OpenXml.xml_5" Type="0"/>
+    <ROW Component="DocumentFormat.OpenXml.xml_4" ComponentId="{071A897D-D30F-4466-9E37-9B782D4F0A45}" Directory_="netstandard2.0_8_Dir" Attributes="0" KeyPath="DocumentFormat.OpenXml.xml_6" Type="0"/>
+    <ROW Component="EntityFramework.DefaultItems.props" ComponentId="{56EDBBEB-B458-4FF5-859E-8299C6316078}" Directory_="build_Dir" Attributes="0" KeyPath="EntityFramework.DefaultItems.props" Type="0"/>
+    <ROW Component="EntityFramework.DefaultItems.props_2" ComponentId="{7A6B49F4-0C47-41A7-867C-69BF377DA70D}" Directory_="build_2_Dir" Attributes="0" KeyPath="EntityFramework.DefaultItems.props_2" Type="0"/>
+    <ROW Component="EntityFramework.SqlServer.dll" ComponentId="{0F8D9C54-4980-4E1B-864F-3CB9539740A7}" Directory_="net40_16_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="EntityFramework.SqlServer.dll"/>
+    <ROW Component="EntityFramework.SqlServer.dll_10" ComponentId="{0D835A56-E494-4926-8E8F-D31D4B71B272}" Directory_="net40_19_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="EntityFramework.SqlServer.dll_10"/>
+    <ROW Component="EntityFramework.SqlServer.dll_11" ComponentId="{12341163-3219-4763-B03A-B70135328017}" Directory_="net45_5_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="EntityFramework.SqlServer.dll_11"/>
+    <ROW Component="EntityFramework.SqlServer.dll_12" ComponentId="{81B8F5F6-2C78-4EF2-977A-3BDE94CEAA87}" Directory_="netstandard2.1_4_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="EntityFramework.SqlServer.dll_12"/>
+    <ROW Component="EntityFramework.SqlServer.dll_14" ComponentId="{6DA81263-1F7F-494E-8E07-98D9711C4BED}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="EntityFramework.SqlServer.dll_14"/>
+    <ROW Component="EntityFramework.SqlServer.dll_8" ComponentId="{5DE428D9-ECAE-4C8F-AB95-CC23D2E8446E}" Directory_="net45_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="EntityFramework.SqlServer.dll_8"/>
+    <ROW Component="EntityFramework.SqlServer.dll_9" ComponentId="{C9A83D8D-54ED-4CF9-9DC0-0370EEB2378F}" Directory_="netstandard2.1_3_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="EntityFramework.SqlServer.dll_9"/>
+    <ROW Component="EntityFramework.SqlServer.xml" ComponentId="{6415F302-09C3-4281-9F48-D807A252A36C}" Directory_="net40_16_Dir" Attributes="0" KeyPath="EntityFramework.SqlServer.xml" Type="0"/>
+    <ROW Component="EntityFramework.SqlServer.xml_10" ComponentId="{42A3712E-E6F7-4A79-8875-C6D0621E0385}" Directory_="netstandard2.1_4_Dir" Attributes="0" KeyPath="EntityFramework.SqlServer.xml_12" Type="0"/>
+    <ROW Component="EntityFramework.SqlServer.xml_6" ComponentId="{3FEC31CE-EC27-4AD0-9FAF-91841019CC87}" Directory_="net45_Dir" Attributes="0" KeyPath="EntityFramework.SqlServer.xml_8" Type="0"/>
+    <ROW Component="EntityFramework.SqlServer.xml_7" ComponentId="{04FCA28B-8BB4-49C3-9819-E17272B39E36}" Directory_="netstandard2.1_3_Dir" Attributes="0" KeyPath="EntityFramework.SqlServer.xml_9" Type="0"/>
+    <ROW Component="EntityFramework.SqlServer.xml_8" ComponentId="{6EFC649E-1648-45EC-9C2D-4CEC00C344E2}" Directory_="net40_19_Dir" Attributes="0" KeyPath="EntityFramework.SqlServer.xml_10" Type="0"/>
+    <ROW Component="EntityFramework.SqlServer.xml_9" ComponentId="{8806D10C-BB20-4FC4-9611-B81FF3FFFC68}" Directory_="net45_5_Dir" Attributes="0" KeyPath="EntityFramework.SqlServer.xml_11" Type="0"/>
+    <ROW Component="EntityFramework.dll" ComponentId="{1CF213D7-D6EB-4BF7-8AC4-5B8FBA81F0CE}" Directory_="net40_16_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="EntityFramework.dll"/>
+    <ROW Component="EntityFramework.dll_10" ComponentId="{352DC1A3-8D84-4F65-9CC4-BFEFAE636DC7}" Directory_="net40_19_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="EntityFramework.dll_10"/>
+    <ROW Component="EntityFramework.dll_11" ComponentId="{DC4255B5-953C-4F6B-BA1E-D440AAB29B1E}" Directory_="net45_5_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="EntityFramework.dll_11"/>
+    <ROW Component="EntityFramework.dll_12" ComponentId="{E8CCA583-22DB-446E-9C6C-24533AE19A56}" Directory_="netstandard2.1_4_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="EntityFramework.dll_12"/>
+    <ROW Component="EntityFramework.dll_14" ComponentId="{00BD3437-8C4B-49E5-9EC8-541F24F7BAA6}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="EntityFramework.dll_14"/>
+    <ROW Component="EntityFramework.dll_8" ComponentId="{2DDE763C-373C-4D76-9BF0-73930DB95FA2}" Directory_="net45_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="EntityFramework.dll_8"/>
+    <ROW Component="EntityFramework.dll_9" ComponentId="{B541B86A-E235-4050-AD2F-F2575CB7930B}" Directory_="netstandard2.1_3_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="EntityFramework.dll_9"/>
+    <ROW Component="EntityFramework.props" ComponentId="{30972EF3-F627-4AEA-909C-588C4A55B728}" Directory_="netcoreapp3.0_Dir" Attributes="0" KeyPath="EntityFramework.props_8" Type="0"/>
+    <ROW Component="EntityFramework.props_10" ComponentId="{F0B1ECB6-B4E9-4E03-85FF-4B1A639BA688}" Directory_="net6.0_7_Dir" Attributes="0" KeyPath="EntityFramework.props_14" Type="0"/>
+    <ROW Component="EntityFramework.props_6" ComponentId="{B4D02FCD-F6E0-4713-892E-AB730357D63D}" Directory_="buildTransitive_Dir" Attributes="0" KeyPath="EntityFramework.props_9" Type="0"/>
+    <ROW Component="EntityFramework.props_7" ComponentId="{FC85E4B7-F6D7-44AC-9AB2-BA17ACC87D35}" Directory_="netcoreapp3.0_3_Dir" Attributes="0" KeyPath="EntityFramework.props_10" Type="0"/>
+    <ROW Component="EntityFramework.props_8" ComponentId="{2EBAE21C-7320-45C8-B071-71E4F0B22C4C}" Directory_="net6.0_6_Dir" Attributes="0" KeyPath="EntityFramework.props_12" Type="0"/>
+    <ROW Component="EntityFramework.props_9" ComponentId="{CD78EA1E-8B62-44EF-9717-4ACA33AB4E0F}" Directory_="buildTransitive_2_Dir" Attributes="0" KeyPath="EntityFramework.props_13" Type="0"/>
+    <ROW Component="Microsoft.CSharp.dll" ComponentId="{DA72585E-AE75-4482-9F51-597119554654}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Microsoft.CSharp.dll"/>
+    <ROW Component="Microsoft.Data.Entity.Build.Tasks.dll" ComponentId="{5327CD50-C09D-4D5E-BE80-E45B81AE1AA0}" Directory_="build_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Microsoft.Data.Entity.Build.Tasks.dll"/>
+    <ROW Component="Microsoft.Data.Entity.Build.Tasks.dll_2" ComponentId="{107F9372-878D-46FA-9116-862FF77C5BAB}" Directory_="build_2_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Microsoft.Data.Entity.Build.Tasks.dll_2"/>
+    <ROW Component="Microsoft.Extensions.DependencyInjec_3_tion.Abstractions.xml" ComponentId="{92387E40-AE89-45D8-8FDD-84DF9AECD391}" Directory_="netstandard2.0_10_Dir" Attributes="0" KeyPath="Microsoft.Extensions.DependencyInjection.Abstractions.xml" Type="0"/>
+    <ROW Component="Microsoft.Extensions.DependencyInjec_4_tion.Abstractions.dll" ComponentId="{0B5D2107-0139-45B6-BC24-B673CD969333}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Microsoft.Extensions.DependencyInjec_3_tion.Abstractions.dll"/>
+    <ROW Component="Microsoft.Extensions.DependencyInjection.Abstractions.dll" ComponentId="{A984B7FB-D0AB-4A05-A889-38670B723430}" Directory_="netstandard2.0_10_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Microsoft.Extensions.DependencyInjection.Abstractions.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{B8449F96-C123-404B-AAC4-668563C27936}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="Quartz.dll" ComponentId="{4FCF49F2-AF7B-4154-9F91-B912DA721B5C}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Quartz.dll"/>
+    <ROW Component="ServiceStack.Interfaces.dll" ComponentId="{EEFBF38C-DBD6-4920-BC2D-9C5796BB4C4A}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="ServiceStack.Interfaces.dll"/>
+    <ROW Component="ServiceStack.Interfaces.dll_3" ComponentId="{84DE90CF-84DF-4017-A426-A3843C3CAE5F}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="ServiceStack.Interfaces.dll_3"/>
+    <ROW Component="System.ComponentModel.DataAnnotations.dll" ComponentId="{B0B08124-4D2D-4F65-B5FE-2B7A3A27FA53}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="System.ComponentModel.DataAnnotations.dll"/>
+    <ROW Component="System.Data.DataSetExtensions.dll" ComponentId="{3A40551E-37B6-4040-A63B-906106E04A99}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="System.Data.DataSetExtensions.dll"/>
+    <ROW Component="System.Data.dll" ComponentId="{7ED90131-8747-45DC-B850-444DC80C929A}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="System.Data.dll"/>
+    <ROW Component="System.Deployment.dll" ComponentId="{D1575F24-C250-4AD1-8E56-BBC5B9915058}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="System.Deployment.dll"/>
+    <ROW Component="System.Design.dll" ComponentId="{00E32104-BCAA-4FE1-975A-5F973DD84153}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="System.Design.dll"/>
+    <ROW Component="System.Drawing.dll" ComponentId="{229E3385-CF39-4928-817E-66F848B3434F}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="System.Drawing.dll"/>
+    <ROW Component="System.Net.Http.dll" ComponentId="{4B3CB0AB-A574-4305-950F-E75943B7A711}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="System.Net.Http.dll"/>
+    <ROW Component="System.Runtime.Serialization.dll" ComponentId="{2BAFA067-C232-4FAE-8CC5-EC53B09A5019}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="System.Runtime.Serialization.dll"/>
+    <ROW Component="System.Security.dll" ComponentId="{04AF04AB-E8A0-4A15-A6C2-99CC1F227582}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="System.Security.dll"/>
+    <ROW Component="System.Windows.Forms.dll" ComponentId="{843CE3FF-59D1-4A6E-84CD-08A6582C5874}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="System.Windows.Forms.dll"/>
+    <ROW Component="System.Xml.Linq.dll" ComponentId="{4056FF39-E4C0-42CC-8960-19DE0F38DDB4}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="System.Xml.Linq.dll"/>
+    <ROW Component="System.Xml.dll" ComponentId="{F08FD122-5614-4BE1-9188-5E3F09FFF3A2}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="System.Xml.dll"/>
+    <ROW Component="System.dll" ComponentId="{3ECBEB82-6684-420F-B826-3C51F29F15E5}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="System.dll"/>
+    <ROW Component="Terrasoft.Common.dll" ComponentId="{A0158877-7C30-4B0F-AED8-6C4ECCDB7086}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Common.dll"/>
+    <ROW Component="Terrasoft.Core.ConfigurationBuild.dll" ComponentId="{2609BD51-409F-40FE-9513-F331382EA2B2}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Core.ConfigurationBuild.dll"/>
+    <ROW Component="Terrasoft.Core.DI.dll" ComponentId="{58BAEFF1-D4D9-460E-9FFF-B74A60E9FFAF}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Core.DI.dll"/>
+    <ROW Component="Terrasoft.Core.DI.dll_3" ComponentId="{B4815185-596E-4AE3-A63D-C4F3E90E9ABB}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Core.DI.dll_3"/>
+    <ROW Component="Terrasoft.Core.Packages.dll" ComponentId="{423578FF-AF48-4C7D-A098-C1721ECF5874}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Core.Packages.dll"/>
+    <ROW Component="Terrasoft.Core.Process.dll" ComponentId="{46FA08BF-021D-4DE9-BDB2-C81750461A97}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Core.Process.dll"/>
+    <ROW Component="Terrasoft.Core.Scheduler.dll" ComponentId="{56CDB6AB-1FED-4AEB-B8F2-AEFAC230F9D8}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Core.Scheduler.dll"/>
+    <ROW Component="Terrasoft.Core.ScriptEngine.dll" ComponentId="{07899B87-B45A-4AA3-B6DA-4DD3565035CD}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Core.ScriptEngine.dll"/>
+    <ROW Component="Terrasoft.Core.ServiceModelContract.dll" ComponentId="{B0B64F5A-73B3-4A8F-882C-388101838B08}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Core.ServiceModelContract.dll"/>
+    <ROW Component="Terrasoft.Core.Translation.dll" ComponentId="{9E00A48B-918B-4DCD-9559-B107E5D612F3}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Core.Translation.dll"/>
+    <ROW Component="Terrasoft.Core.dll" ComponentId="{4EB89AC2-69A0-41B7-AFEC-405484ABC9FF}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Core.dll"/>
+    <ROW Component="Terrasoft.File.Abstractions.dll" ComponentId="{976844DF-B642-4FDB-BDBC-02F11887D925}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.File.Abstractions.dll"/>
+    <ROW Component="Terrasoft.File.dll" ComponentId="{53F98F1B-4DCB-4DDC-BEE6-41C9C10B0577}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.File.dll"/>
+    <ROW Component="Terrasoft.GlobalSearch.dll" ComponentId="{F71B0D9C-3E8E-4CB0-AB79-D83E7C889E6B}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.GlobalSearch.dll"/>
+    <ROW Component="Terrasoft.GoogleServerConnector.dll" ComponentId="{FA415752-70C4-4EC6-BD90-2A3B2DBFA3A2}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.GoogleServerConnector.dll"/>
+    <ROW Component="Terrasoft.GoogleServices.dll" ComponentId="{D07B5681-9F0E-4E89-BBD4-2FD14A277B64}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.GoogleServices.dll"/>
+    <ROW Component="Terrasoft.IO.dll" ComponentId="{44E5EA2D-B31F-4D1E-83C9-8BD16BA7C9B2}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.IO.dll"/>
+    <ROW Component="Terrasoft.IO.dll_3" ComponentId="{3D6793C7-3BA6-44CA-94DE-33A83F5D16D0}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.IO.dll_3"/>
+    <ROW Component="Terrasoft.Messaging.Common.Standard._3_dll" ComponentId="{E7E50958-F7E9-43CC-ACAF-77BC90FFDD17}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Messaging.Common.Standard._3_dll"/>
+    <ROW Component="Terrasoft.Messaging.Common.Standard.dll" ComponentId="{1933D490-832B-4645-AAE6-6856147DFB22}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Messaging.Common.Standard.dll"/>
+    <ROW Component="Terrasoft.Messaging.Common.dll" ComponentId="{F99BEF48-77D6-4797-8078-42B4D36F66DA}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Messaging.Common.dll"/>
+    <ROW Component="Terrasoft.Mobile.dll" ComponentId="{0DA3B107-60E2-4069-B7F6-02A5E11F7B5C}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Mobile.dll"/>
+    <ROW Component="Terrasoft.Monitoring.dll" ComponentId="{55FA738A-2BBD-4AAD-ADA9-B2900F99F3A6}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Monitoring.dll"/>
+    <ROW Component="Terrasoft.Nui.ServiceModel.dll" ComponentId="{494C6EE9-EA80-4FB9-995A-8DBDFF4AFC7D}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Nui.ServiceModel.dll"/>
+    <ROW Component="Terrasoft.Nui.dll" ComponentId="{6A6F0272-33E5-4684-9E82-9E5035881B7A}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Nui.dll"/>
+    <ROW Component="Terrasoft.Reports.dll" ComponentId="{2892A7A8-B88D-4536-9F0B-A24FA98257EB}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Reports.dll"/>
+    <ROW Component="Terrasoft.Security.Secrets.dll" ComponentId="{66D28DEC-D400-407F-9C75-D557478A6E64}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Security.Secrets.dll"/>
+    <ROW Component="Terrasoft.Security.Secrets.dll_3" ComponentId="{8E68A8D2-A17B-4512-ABCC-88F143CE9B93}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Security.Secrets.dll_3"/>
+    <ROW Component="Terrasoft.Services.dll" ComponentId="{60C9EA7E-E4EF-4CE6-84CE-3DB1F1A41151}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Services.dll"/>
+    <ROW Component="Terrasoft.Social.dll" ComponentId="{E33519FC-26B7-4408-BB97-C7AD0CC133EB}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Social.dll"/>
+    <ROW Component="Terrasoft.Sync.dll" ComponentId="{60A38D8E-5222-4C08-8B37-C7D62B9C9620}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Sync.dll"/>
+    <ROW Component="Terrasoft.Web.Common.dll" ComponentId="{CC634497-7FD6-46F2-A4CC-B4E387F999E7}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Web.Common.dll"/>
+    <ROW Component="Terrasoft.Web.Http.Abstractions.dll" ComponentId="{13BCDD81-B07A-4173-84F2-40599834461E}" Directory_="net40_12_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="Terrasoft.Web.Http.Abstractions.dll"/>
+    <ROW Component="WindowsBase.dll" ComponentId="{FCEF9D55-1135-45DE-9C1E-0D8FF71876A3}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="WindowsBase.dll"/>
+    <ROW Component="about_EntityFramework6.help.txt" ComponentId="{CD8CDCB0-3A01-4B8D-8CC3-D4ED223F585B}" Directory_="tools_Dir" Attributes="0" KeyPath="about_EntityFramework6.help.txt" Type="0"/>
+    <ROW Component="about_EntityFramework6.help.txt_2" ComponentId="{08427FFD-9FA3-4332-AD09-4DE1A5D1FF20}" Directory_="tools_2_Dir" Attributes="0" KeyPath="about_EntityFramework6.help.txt_2" Type="0"/>
+    <ROW Component="arial.ttf" ComponentId="{D526587F-6F16-4E64-940E-DB05D184D48A}" Directory_="Reports_Dir" Attributes="0" Type="0"/>
+    <ROW Component="ef6.dll" ComponentId="{0D1CD3A1-D5CD-45DD-82C2-3788CFF73750}" Directory_="any_7_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="ef6.dll"/>
+    <ROW Component="ef6.dll_2" ComponentId="{125C3195-66BD-449A-866B-365D8D775EF9}" Directory_="any_10_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="ef6.dll_2"/>
+    <ROW Component="ef6.exe" ComponentId="{66C04378-E32F-41EE-B014-D785A898AC3C}" Directory_="any_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="ef6.exe"/>
+    <ROW Component="ef6.exe_10" ComponentId="{F6564BEA-D2E3-4D12-B071-8B894558F04B}" Directory_="winx86_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="ef6.exe_10"/>
+    <ROW Component="ef6.exe_11" ComponentId="{B1252989-A8D6-486B-B79D-C8F8F3E93360}" Directory_="any_6_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="ef6.exe_11"/>
+    <ROW Component="ef6.exe_12" ComponentId="{D916E848-5FCB-4A9C-ABAF-D2EF1DADC1A6}" Directory_="winx86_4_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="ef6.exe_12"/>
+    <ROW Component="ef6.exe_13" ComponentId="{C9BB906E-ADE1-474F-AB53-E5EA310E1F18}" Directory_="any_8_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="ef6.exe_13"/>
+    <ROW Component="ef6.exe_14" ComponentId="{AE243CA2-2EAE-4719-BC7B-F30546DCDFC5}" Directory_="winarm64_Dir" Attributes="0" KeyPath="ef6.pdb_17"/>
+    <ROW Component="ef6.exe_15" ComponentId="{112111C2-34C2-492B-900F-72C968B72B99}" Directory_="winx86_5_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="ef6.exe_15"/>
+    <ROW Component="ef6.exe_16" ComponentId="{0BBCBF9C-6FC9-40C2-B6E6-01EEAFC301EF}" Directory_="any_9_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="ef6.exe_16"/>
+    <ROW Component="ef6.exe_17" ComponentId="{ECE5669E-75CA-44BC-875D-206B99E10CC5}" Directory_="winarm64_2_Dir" Attributes="0" KeyPath="ef6.pdb_20"/>
+    <ROW Component="ef6.exe_18" ComponentId="{4EB3A99A-A6AB-423D-BD52-E59CC2A101EF}" Directory_="winx86_6_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="ef6.exe_18"/>
+    <ROW Component="ef6.exe_19" ComponentId="{DE551C30-7954-499D-93E1-ADA9F07E7E79}" Directory_="winarm64_Dir" Attributes="256" Condition="VersionNT64" KeyPath="ef6.exe_14"/>
+    <ROW Component="ef6.exe_20" ComponentId="{539D4BE0-F2A5-4C60-82CC-6AEF9A1305C4}" Directory_="winarm64_2_Dir" Attributes="256" Condition="VersionNT64" KeyPath="ef6.exe_17"/>
+    <ROW Component="ef6.pdb" ComponentId="{BDD318ED-720C-4E2B-972A-243C442A179E}" Directory_="any_8_Dir" Attributes="0" KeyPath="ef6.pdb_16" Type="4"/>
+    <ROW Component="ef6.pdb_1" ComponentId="{ADBF29C0-E46D-43CE-8CFD-E0342C03B30A}" Directory_="winx86_Dir" Attributes="0" KeyPath="ef6.pdb_12" Type="4"/>
+    <ROW Component="ef6.pdb_2" ComponentId="{FCBF2435-061B-4BAC-BB29-FDD585320D32}" Directory_="winx86_4_Dir" Attributes="0" KeyPath="ef6.pdb_14" Type="4"/>
+    <ROW Component="ef6.pdb_3" ComponentId="{48C93125-1A7E-4849-803F-2A752FA7F821}" Directory_="any_Dir" Attributes="0" KeyPath="ef6.pdb" Type="4"/>
+    <ROW Component="ef6.pdb_4" ComponentId="{AC8B83DD-0F4A-4988-9535-1666D14B5D4C}" Directory_="any_6_Dir" Attributes="0" KeyPath="ef6.pdb_13" Type="4"/>
+    <ROW Component="ef6.pdb_5" ComponentId="{9B7CB83A-2731-40BA-811A-840B6569D08E}" Directory_="any_7_Dir" Attributes="0" KeyPath="ef6.pdb_15" Type="4"/>
+    <ROW Component="ef6.pdb_6" ComponentId="{468C3139-E0BB-4571-95E7-19F840645638}" Directory_="winx86_5_Dir" Attributes="0" KeyPath="ef6.pdb_18" Type="4"/>
+    <ROW Component="ef6.pdb_7" ComponentId="{6569DC44-4792-4A2A-A058-8BCC1DAE306F}" Directory_="any_10_Dir" Attributes="0" KeyPath="ef6.pdb_22" Type="4"/>
+    <ROW Component="ef6.pdb_8" ComponentId="{3F6E9454-A1B7-4E1E-B256-68D50BD1C5FB}" Directory_="any_9_Dir" Attributes="0" KeyPath="ef6.pdb_19" Type="4"/>
+    <ROW Component="ef6.pdb_9" ComponentId="{CCDA615A-9BEB-444F-AE0B-D2169150CC35}" Directory_="winx86_6_Dir" Attributes="0" KeyPath="ef6.pdb_21" Type="4"/>
+    <ROW Component="ef6.runtimeconfig.json" ComponentId="{23DB3FDF-03E9-43F6-B430-48424AD5B324}" Directory_="any_7_Dir" Attributes="0" KeyPath="ef6.runtimeconfig.json" Type="0"/>
+    <ROW Component="ef6.runtimeconfig.json_2" ComponentId="{3631191C-D38A-4F11-93AD-85C118CFF31B}" Directory_="any_10_Dir" Attributes="0" KeyPath="ef6.runtimeconfig.json_2" Type="0"/>
+    <ROW Component="iTextSharp.xml" ComponentId="{B815B44D-3D49-48CB-BBB0-81E3990AF51C}" Directory_="lib_23_Dir" Attributes="0" KeyPath="iTextSharp.xml" Type="0"/>
+    <ROW Component="itextsharp.dll" ComponentId="{63EEF65D-653E-469B-893C-4784739CBD02}" Directory_="lib_23_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="itextsharp.dll"/>
+    <ROW Component="itextsharp.dll_4" ComponentId="{9E67791E-CE4F-40EF-826D-D51CF3556BA1}" Directory_="Release_Dir" Attributes="0" Condition="NOT VersionNT64" KeyPath="itextsharp.dll_4"/>
+    <ROW Component="signature.p7s" ComponentId="{C6C2690E-83BC-4463-A9C4-6C019FDAB212}" Directory_="ATF.Repository.2.0.2.4_Dir" Attributes="0" KeyPath="signature.p7s" Type="0"/>
+    <ROW Component="signature.p7s_13" ComponentId="{21D649CE-DF7B-421C-BFF7-DF0D603885AC}" Directory_="BouncyCastle.1.8.9_Dir" Attributes="0" KeyPath="signature.p7s_13" Type="0"/>
+    <ROW Component="signature.p7s_14" ComponentId="{166C66BA-417C-4A54-8811-CDADF090240C}" Directory_="Castle.Core.5.1.1_Dir" Attributes="0" KeyPath="signature.p7s_14" Type="0"/>
+    <ROW Component="signature.p7s_15" ComponentId="{203F086D-F77F-4CED-9D94-A0CF49B028F3}" Directory_="Common.Logging.3.4.1_Dir" Attributes="0" KeyPath="signature.p7s_15" Type="0"/>
+    <ROW Component="signature.p7s_16" ComponentId="{C533A7F3-2FAE-4F61-9EC6-B33CCB933DD9}" Directory_="Common.Logging.Core.3.4.1_Dir" Attributes="0" KeyPath="signature.p7s_16" Type="0"/>
+    <ROW Component="signature.p7s_17" ComponentId="{83183277-9C81-41CC-B57D-78A96A46378C}" Directory_="creatio.client.1.0.24_Dir" Attributes="0" KeyPath="signature.p7s_17" Type="0"/>
+    <ROW Component="signature.p7s_18" ComponentId="{F0C68F84-6E94-4586-AC83-7198D00559F0}" Directory_="CreatioSDK.8.1.0.6716_Dir" Attributes="0" KeyPath="signature.p7s_18" Type="0"/>
+    <ROW Component="signature.p7s_19" ComponentId="{7926C2CF-7B1E-4F60-99BA-5D6B0623DBA6}" Directory_="DocumentFormat.OpenXml.3.0.0_Dir" Attributes="0" KeyPath="signature.p7s_19" Type="0"/>
+    <ROW Component="signature.p7s_20" ComponentId="{7E129877-7B9E-4FA3-84C5-6B6F99B99601}" Directory_="DocumentFormat.OpenXml.Framewor_Dir" Attributes="0" KeyPath="signature.p7s_20" Type="0"/>
+    <ROW Component="signature.p7s_21" ComponentId="{3EF8F2ED-2F7F-4FC1-B1C1-1266570FCE29}" Directory_="EntityFramework.6.4.4_Dir" Attributes="0" KeyPath="signature.p7s_21" Type="0"/>
+    <ROW Component="signature.p7s_22" ComponentId="{5CA2289E-E865-458D-9FA9-DDC3D10399DD}" Directory_="EntityFramework.6.5.1_Dir" Attributes="0" KeyPath="signature.p7s_22" Type="0"/>
+    <ROW Component="signature.p7s_23" ComponentId="{A2F9F48C-8F93-4778-9850-DF555BAF0D5B}" Directory_="iTextSharp.5.5.13.3_Dir" Attributes="0" KeyPath="signature.p7s_23" Type="0"/>
+    <ROW Component="signature.p7s_24" ComponentId="{352FD7F4-D283-4522-B765-A338102F220E}" Directory_="Microsoft.Extensions.Dependency_Dir" Attributes="0" KeyPath="signature.p7s_24" Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="AI32BitFiles" Title="32-bit" Description="32-bit Executables and Libraries" Display="5" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ROW Feature="AI64BitFiles" Title="64-bit" Description="64-bit Executables and Libraries" Display="3" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ROW Feature="AIOtherFiles" Title="Common" Description="Shared Resource and Regular Files" Display="7" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="signature.p7s" Component_="signature.p7s" FileName="SIGNAT~1.P7S|.signature.p7s" Attributes="0" SourcePath="..\az_git\packages\ATF.Repository.2.0.2.4\.signature.p7s" SelfReg="false"/>
+    <ROW File="ATF.Repository.2.0.2.4.nupkg" Component_="signature.p7s" FileName="ATFREP~1.NUP|ATF.Repository.2.0.2.4.nupkg" Attributes="0" SourcePath="..\az_git\packages\ATF.Repository.2.0.2.4\ATF.Repository.2.0.2.4.nupkg" SelfReg="false"/>
+    <ROW File="ATF.Repository.dll" Component_="ATF.Repository.dll" FileName="ATFREP~1.DLL|ATF.Repository.dll" Attributes="0" SourcePath="..\az_git\packages\ATF.Repository.2.0.2.4\lib\netstandard2.0\ATF.Repository.dll" SelfReg="false"/>
+    <ROW File="signature.p7s_13" Component_="signature.p7s_13" FileName="SIGNAT~1.P7S|.signature.p7s" Attributes="0" SourcePath="..\az_git\packages\BouncyCastle.1.8.9\.signature.p7s" SelfReg="false"/>
+    <ROW File="BouncyCastle.1.8.9.nupkg" Component_="signature.p7s_13" FileName="BOUNCY~1.NUP|BouncyCastle.1.8.9.nupkg" Attributes="0" SourcePath="..\az_git\packages\BouncyCastle.1.8.9\BouncyCastle.1.8.9.nupkg" SelfReg="false"/>
+    <ROW File="BouncyCastle.Crypto.dll" Component_="BouncyCastle.Crypto.dll" FileName="BOUNCY~1.DLL|BouncyCastle.Crypto.dll" Attributes="0" SourcePath="..\az_git\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll" SelfReg="false"/>
+    <ROW File="README.md" Component_="signature.p7s_13" FileName="README.md" Attributes="0" SourcePath="..\az_git\packages\BouncyCastle.1.8.9\README.md" SelfReg="false"/>
+    <ROW File="signature.p7s_14" Component_="signature.p7s_14" FileName="SIGNAT~1.P7S|.signature.p7s" Attributes="0" SourcePath="..\az_git\packages\Castle.Core.5.1.1\.signature.p7s" SelfReg="false"/>
+    <ROW File="ASLApacheSoftwareFoundationLicense.txt" Component_="signature.p7s_14" FileName="ASL-AP~1.TXT|ASL - Apache Software Foundation License.txt" Attributes="0" SourcePath="..\az_git\packages\Castle.Core.5.1.1\ASL - Apache Software Foundation License.txt" SelfReg="false"/>
+    <ROW File="castlelogo.png" Component_="signature.p7s_14" FileName="CASTLE~1.PNG|castle-logo.png" Attributes="0" SourcePath="..\az_git\packages\Castle.Core.5.1.1\castle-logo.png" SelfReg="false"/>
+    <ROW File="Castle.Core.5.1.1.nupkg" Component_="signature.p7s_14" FileName="CASTLE~1.NUP|Castle.Core.5.1.1.nupkg" Attributes="0" SourcePath="..\az_git\packages\Castle.Core.5.1.1\Castle.Core.5.1.1.nupkg" SelfReg="false"/>
+    <ROW File="CHANGELOG.md" Component_="signature.p7s_14" FileName="CHANGE~1.MD|CHANGELOG.md" Attributes="0" SourcePath="..\az_git\packages\Castle.Core.5.1.1\CHANGELOG.md" SelfReg="false"/>
+    <ROW File="Castle.Core.dll" Component_="Castle.Core.dll" FileName="CASTLE~1.DLL|Castle.Core.dll" Attributes="0" SourcePath="..\az_git\packages\Castle.Core.5.1.1\lib\net462\Castle.Core.dll" SelfReg="false"/>
+    <ROW File="Castle.Core.xml" Component_="Castle.Core.xml" FileName="CASTLE~1.XML|Castle.Core.xml" Attributes="0" SourcePath="..\az_git\packages\Castle.Core.5.1.1\lib\net462\Castle.Core.xml" SelfReg="false"/>
+    <ROW File="Castle.Core.dll_5" Component_="Castle.Core.dll_5" FileName="CASTLE~1.DLL|Castle.Core.dll" Attributes="0" SourcePath="..\az_git\packages\Castle.Core.5.1.1\lib\net6.0\Castle.Core.dll" SelfReg="false"/>
+    <ROW File="Castle.Core.xml_5" Component_="Castle.Core.xml_4" FileName="CASTLE~1.XML|Castle.Core.xml" Attributes="0" SourcePath="..\az_git\packages\Castle.Core.5.1.1\lib\net6.0\Castle.Core.xml" SelfReg="false"/>
+    <ROW File="Castle.Core.dll_6" Component_="Castle.Core.dll_6" FileName="CASTLE~1.DLL|Castle.Core.dll" Attributes="0" SourcePath="..\az_git\packages\Castle.Core.5.1.1\lib\netstandard2.0\Castle.Core.dll" SelfReg="false"/>
+    <ROW File="Castle.Core.xml_6" Component_="Castle.Core.xml_5" FileName="CASTLE~1.XML|Castle.Core.xml" Attributes="0" SourcePath="..\az_git\packages\Castle.Core.5.1.1\lib\netstandard2.0\Castle.Core.xml" SelfReg="false"/>
+    <ROW File="Castle.Core.dll_7" Component_="Castle.Core.dll_7" FileName="CASTLE~1.DLL|Castle.Core.dll" Attributes="0" SourcePath="..\az_git\packages\Castle.Core.5.1.1\lib\netstandard2.1\Castle.Core.dll" SelfReg="false"/>
+    <ROW File="Castle.Core.xml_7" Component_="Castle.Core.xml_6" FileName="CASTLE~1.XML|Castle.Core.xml" Attributes="0" SourcePath="..\az_git\packages\Castle.Core.5.1.1\lib\netstandard2.1\Castle.Core.xml" SelfReg="false"/>
+    <ROW File="LICENSE" Component_="signature.p7s_14" FileName="LICENSE" Attributes="0" SourcePath="..\az_git\packages\Castle.Core.5.1.1\LICENSE" SelfReg="false"/>
+    <ROW File="readme.txt" Component_="signature.p7s_14" FileName="readme.txt" Attributes="0" SourcePath="..\az_git\packages\Castle.Core.5.1.1\readme.txt" SelfReg="false"/>
+    <ROW File="signature.p7s_15" Component_="signature.p7s_15" FileName="SIGNAT~1.P7S|.signature.p7s" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.3.4.1\.signature.p7s" SelfReg="false"/>
+    <ROW File="Common.Logging.3.4.1.nupkg" Component_="signature.p7s_15" FileName="COMMON~1.NUP|Common.Logging.3.4.1.nupkg" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.3.4.1\Common.Logging.3.4.1.nupkg" SelfReg="false"/>
+    <ROW File="Common.Logging.dll" Component_="Common.Logging.dll" FileName="COMMON~1.DLL|Common.Logging.dll" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.3.4.1\lib\net35\Common.Logging.dll" SelfReg="false"/>
+    <ROW File="Common.Logging.pdb" Component_="Common.Logging.pdb_1" FileName="COMMON~1.PDB|Common.Logging.pdb" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.3.4.1\lib\net35\Common.Logging.pdb" SelfReg="false"/>
+    <ROW File="Common.Logging.xml" Component_="Common.Logging.xml" FileName="COMMON~1.XML|Common.Logging.xml" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.3.4.1\lib\net35\Common.Logging.xml" SelfReg="false"/>
+    <ROW File="Common.Logging.dll_4" Component_="Common.Logging.dll_4" FileName="COMMON~1.DLL|Common.Logging.dll" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.3.4.1\lib\net40\Common.Logging.dll" SelfReg="false"/>
+    <ROW File="Common.Logging.pdb_4" Component_="Common.Logging.pdb_2" FileName="COMMON~1.PDB|Common.Logging.pdb" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.3.4.1\lib\net40\Common.Logging.pdb" SelfReg="false"/>
+    <ROW File="Common.Logging.xml_4" Component_="Common.Logging.xml_3" FileName="COMMON~1.XML|Common.Logging.xml" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.3.4.1\lib\net40\Common.Logging.xml" SelfReg="false"/>
+    <ROW File="Common.Logging.dll_5" Component_="Common.Logging.dll_5" FileName="COMMON~1.DLL|Common.Logging.dll" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.3.4.1\lib\netstandard1.3\Common.Logging.dll" SelfReg="false"/>
+    <ROW File="Common.Logging.pdb_5" Component_="Common.Logging.pdb" FileName="COMMON~1.PDB|Common.Logging.pdb" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.3.4.1\lib\netstandard1.3\Common.Logging.pdb" SelfReg="false"/>
+    <ROW File="Common.Logging.xml_5" Component_="Common.Logging.xml_4" FileName="COMMON~1.XML|Common.Logging.xml" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.3.4.1\lib\netstandard1.3\Common.Logging.xml" SelfReg="false"/>
+    <ROW File="signature.p7s_16" Component_="signature.p7s_16" FileName="SIGNAT~1.P7S|.signature.p7s" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.Core.3.4.1\.signature.p7s" SelfReg="false"/>
+    <ROW File="Common.Logging.Core.3.4.1.nupkg" Component_="signature.p7s_16" FileName="COMMON~1.NUP|Common.Logging.Core.3.4.1.nupkg" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.Core.3.4.1\Common.Logging.Core.3.4.1.nupkg" SelfReg="false"/>
+    <ROW File="Common.Logging.Core.dll" Component_="Common.Logging.Core.dll" FileName="COMMON~1.DLL|Common.Logging.Core.dll" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.dll" SelfReg="false"/>
+    <ROW File="Common.Logging.Core.pdb" Component_="Common.Logging.Core.pdb_2" FileName="COMMON~1.PDB|Common.Logging.Core.pdb" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.pdb" SelfReg="false"/>
+    <ROW File="Common.Logging.Core.XML" Component_="Common.Logging.Core.XML" FileName="COMMON~1.XML|Common.Logging.Core.XML" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.XML" SelfReg="false"/>
+    <ROW File="Common.Logging.Core.dll_4" Component_="Common.Logging.Core.dll_4" FileName="COMMON~1.DLL|Common.Logging.Core.dll" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.Core.3.4.1\lib\netstandard1.0\Common.Logging.Core.dll" SelfReg="false"/>
+    <ROW File="Common.Logging.Core.pdb_4" Component_="Common.Logging.Core.pdb" FileName="COMMON~1.PDB|Common.Logging.Core.pdb" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.Core.3.4.1\lib\netstandard1.0\Common.Logging.Core.pdb" SelfReg="false"/>
+    <ROW File="Common.Logging.Core.xml_4" Component_="Common.Logging.Core.xml" FileName="COMMON~1.XML|Common.Logging.Core.xml" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.Core.3.4.1\lib\netstandard1.0\Common.Logging.Core.xml" SelfReg="false"/>
+    <ROW File="Common.Logging.Core.dll_5" Component_="Common.Logging.Core.dll_5" FileName="COMMON~1.DLL|Common.Logging.Core.dll" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.Core.3.4.1\lib\portable-win+net40+sl40+wp7+wpa81\Common.Logging.Core.dll" SelfReg="false"/>
+    <ROW File="Common.Logging.Core.pdb_5" Component_="Common.Logging.Core.pdb_1" FileName="COMMON~1.PDB|Common.Logging.Core.pdb" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.Core.3.4.1\lib\portable-win+net40+sl40+wp7+wpa81\Common.Logging.Core.pdb" SelfReg="false"/>
+    <ROW File="Common.Logging.Core.XML_5" Component_="Common.Logging.Core.XML_2" FileName="COMMON~1.XML|Common.Logging.Core.XML" Attributes="0" SourcePath="..\az_git\packages\Common.Logging.Core.3.4.1\lib\portable-win+net40+sl40+wp7+wpa81\Common.Logging.Core.XML" SelfReg="false"/>
+    <ROW File="signature.p7s_17" Component_="signature.p7s_17" FileName="SIGNAT~1.P7S|.signature.p7s" Attributes="0" SourcePath="..\az_git\packages\creatio.client.1.0.24\.signature.p7s" SelfReg="false"/>
+    <ROW File="creatio.client.1.0.24.nupkg" Component_="signature.p7s_17" FileName="CREATI~1.NUP|creatio.client.1.0.24.nupkg" Attributes="0" SourcePath="..\az_git\packages\creatio.client.1.0.24\creatio.client.1.0.24.nupkg" SelfReg="false"/>
+    <ROW File="Creatio.Client.dll" Component_="Creatio.Client.dll" FileName="CREATI~1.DLL|Creatio.Client.dll" Attributes="0" SourcePath="..\az_git\packages\creatio.client.1.0.24\lib\netstandard2.0\Creatio.Client.dll" SelfReg="false"/>
+    <ROW File="signature.p7s_18" Component_="signature.p7s_18" FileName="SIGNAT~1.P7S|.signature.p7s" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\.signature.p7s" SelfReg="false"/>
+    <ROW File="CreatioSDK.8.1.0.6716.nupkg" Component_="signature.p7s_18" FileName="CREATI~1.NUP|CreatioSDK.8.1.0.6716.nupkg" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\CreatioSDK.8.1.0.6716.nupkg" SelfReg="false"/>
+    <ROW File="Creatio.FeatureToggling.dll" Component_="Creatio.FeatureToggling.dll" FileName="CREATI~1.DLL|Creatio.FeatureToggling.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Creatio.FeatureToggling.dll" SelfReg="false"/>
+    <ROW File="Quartz.dll" Component_="Quartz.dll" FileName="Quartz.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Quartz.dll" SelfReg="false"/>
+    <ROW File="ServiceStack.Interfaces.dll" Component_="ServiceStack.Interfaces.dll" FileName="SERVIC~1.DLL|ServiceStack.Interfaces.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\ServiceStack.Interfaces.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Common.dll" Component_="Terrasoft.Common.dll" FileName="TERRAS~1.DLL|Terrasoft.Common.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Common.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Core.ConfigurationBuild.dll" Component_="Terrasoft.Core.ConfigurationBuild.dll" FileName="TERRAS~2.DLL|Terrasoft.Core.ConfigurationBuild.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Core.ConfigurationBuild.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Core.DI.dll" Component_="Terrasoft.Core.DI.dll" FileName="TERRAS~3.DLL|Terrasoft.Core.DI.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Core.DI.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Core.dll" Component_="Terrasoft.Core.dll" FileName="TERRAS~4.DLL|Terrasoft.Core.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Core.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Core.Packages.dll" Component_="Terrasoft.Core.Packages.dll" FileName="TERRAS~5.DLL|Terrasoft.Core.Packages.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Core.Packages.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Core.Process.dll" Component_="Terrasoft.Core.Process.dll" FileName="TERRAS~6.DLL|Terrasoft.Core.Process.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Core.Process.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Core.Scheduler.dll" Component_="Terrasoft.Core.Scheduler.dll" FileName="TERRAS~7.DLL|Terrasoft.Core.Scheduler.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Core.Scheduler.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Core.ScriptEngine.dll" Component_="Terrasoft.Core.ScriptEngine.dll" FileName="TERRAS~8.DLL|Terrasoft.Core.ScriptEngine.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Core.ScriptEngine.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Core.ServiceModelContract.dll" Component_="Terrasoft.Core.ServiceModelContract.dll" FileName="TERRAS~9.DLL|Terrasoft.Core.ServiceModelContract.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Core.ServiceModelContract.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Core.Translation.dll" Component_="Terrasoft.Core.Translation.dll" FileName="TERRA~10.DLL|Terrasoft.Core.Translation.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Core.Translation.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.File.Abstractions.dll" Component_="Terrasoft.File.Abstractions.dll" FileName="TERRA~11.DLL|Terrasoft.File.Abstractions.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.File.Abstractions.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.File.dll" Component_="Terrasoft.File.dll" FileName="TERRA~12.DLL|Terrasoft.File.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.File.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.GlobalSearch.dll" Component_="Terrasoft.GlobalSearch.dll" FileName="TERRA~13.DLL|Terrasoft.GlobalSearch.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.GlobalSearch.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.GoogleServerConnector.dll" Component_="Terrasoft.GoogleServerConnector.dll" FileName="TERRA~14.DLL|Terrasoft.GoogleServerConnector.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.GoogleServerConnector.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.GoogleServices.dll" Component_="Terrasoft.GoogleServices.dll" FileName="TERRA~15.DLL|Terrasoft.GoogleServices.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.GoogleServices.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.IO.dll" Component_="Terrasoft.IO.dll" FileName="TERRA~16.DLL|Terrasoft.IO.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.IO.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Messaging.Common.dll" Component_="Terrasoft.Messaging.Common.dll" FileName="TERRA~17.DLL|Terrasoft.Messaging.Common.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Messaging.Common.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Messaging.Common.Standard.dll" Component_="Terrasoft.Messaging.Common.Standard.dll" FileName="TERRA~18.DLL|Terrasoft.Messaging.Common.Standard.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Messaging.Common.Standard.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Mobile.dll" Component_="Terrasoft.Mobile.dll" FileName="TERRA~19.DLL|Terrasoft.Mobile.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Mobile.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Monitoring.dll" Component_="Terrasoft.Monitoring.dll" FileName="TERRA~20.DLL|Terrasoft.Monitoring.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Monitoring.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Nui.dll" Component_="Terrasoft.Nui.dll" FileName="TERRA~21.DLL|Terrasoft.Nui.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Nui.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Nui.ServiceModel.dll" Component_="Terrasoft.Nui.ServiceModel.dll" FileName="TERRA~22.DLL|Terrasoft.Nui.ServiceModel.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Nui.ServiceModel.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Reports.dll" Component_="Terrasoft.Reports.dll" FileName="TERRA~23.DLL|Terrasoft.Reports.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Reports.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Security.Secrets.dll" Component_="Terrasoft.Security.Secrets.dll" FileName="TERRA~24.DLL|Terrasoft.Security.Secrets.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Security.Secrets.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Services.dll" Component_="Terrasoft.Services.dll" FileName="TERRA~25.DLL|Terrasoft.Services.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Services.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Social.dll" Component_="Terrasoft.Social.dll" FileName="TERRA~26.DLL|Terrasoft.Social.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Social.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Sync.dll" Component_="Terrasoft.Sync.dll" FileName="TERRA~27.DLL|Terrasoft.Sync.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Sync.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Web.Common.dll" Component_="Terrasoft.Web.Common.dll" FileName="TERRA~28.DLL|Terrasoft.Web.Common.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Web.Common.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Web.Http.Abstractions.dll" Component_="Terrasoft.Web.Http.Abstractions.dll" FileName="TERRA~29.DLL|Terrasoft.Web.Http.Abstractions.dll" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\lib\net40\Terrasoft.Web.Http.Abstractions.dll" SelfReg="false"/>
+    <ROW File="license.txt" Component_="signature.p7s_18" FileName="license.txt" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\license.txt" SelfReg="false"/>
+    <ROW File="logo.png" Component_="signature.p7s_18" FileName="logo.png" Attributes="0" SourcePath="..\az_git\packages\CreatioSDK.8.1.0.6716\logo.png" SelfReg="false"/>
+    <ROW File="signature.p7s_19" Component_="signature.p7s_19" FileName="SIGNAT~1.P7S|.signature.p7s" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.3.0.0\.signature.p7s" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.3.0.0.nupkg" Component_="signature.p7s_19" FileName="DOCUME~1.NUP|DocumentFormat.OpenXml.3.0.0.nupkg" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.3.0.0\DocumentFormat.OpenXml.3.0.0.nupkg" SelfReg="false"/>
+    <ROW File="icon.png" Component_="signature.p7s_19" FileName="icon.png" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.3.0.0\icon.png" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.dll" Component_="DocumentFormat.OpenXml.dll" FileName="DOCUME~1.DLL|DocumentFormat.OpenXml.dll" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.3.0.0\lib\net35\DocumentFormat.OpenXml.dll" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.xml" Component_="DocumentFormat.OpenXml.xml" FileName="DOCUME~1.XML|DocumentFormat.OpenXml.xml" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.3.0.0\lib\net35\DocumentFormat.OpenXml.xml" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.dll_5" Component_="DocumentFormat.OpenXml.dll_5" FileName="DOCUME~1.DLL|DocumentFormat.OpenXml.dll" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.3.0.0\lib\net40\DocumentFormat.OpenXml.dll" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.xml_5" Component_="DocumentFormat.OpenXml.xml_3" FileName="DOCUME~1.XML|DocumentFormat.OpenXml.xml" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.3.0.0\lib\net40\DocumentFormat.OpenXml.xml" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.dll_6" Component_="DocumentFormat.OpenXml.dll_6" FileName="DOCUME~1.DLL|DocumentFormat.OpenXml.dll" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.3.0.0\lib\netstandard2.0\DocumentFormat.OpenXml.dll" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.xml_6" Component_="DocumentFormat.OpenXml.xml_4" FileName="DOCUME~1.XML|DocumentFormat.OpenXml.xml" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.3.0.0\lib\netstandard2.0\DocumentFormat.OpenXml.xml" SelfReg="false"/>
+    <ROW File="signature.p7s_20" Component_="signature.p7s_20" FileName="SIGNAT~1.P7S|.signature.p7s" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.Framework.3.0.0\.signature.p7s" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.Framework.3.0.0.nupkg" Component_="signature.p7s_20" FileName="DOCUME~1.NUP|DocumentFormat.OpenXml.Framework.3.0.0.nupkg" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.Framework.3.0.0\DocumentFormat.OpenXml.Framework.3.0.0.nupkg" SelfReg="false"/>
+    <ROW File="icon.png_5" Component_="signature.p7s_20" FileName="icon.png" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.Framework.3.0.0\icon.png" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.Framework.dll" Component_="DocumentFormat.OpenXml.Framework.dll" FileName="DOCUME~1.DLL|DocumentFormat.OpenXml.Framework.dll" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.Framework.3.0.0\lib\net35\DocumentFormat.OpenXml.Framework.dll" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.Framework.xml" Component_="DocumentFormat.OpenXml.Framework.xml" FileName="DOCUME~1.XML|DocumentFormat.OpenXml.Framework.xml" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.Framework.3.0.0\lib\net35\DocumentFormat.OpenXml.Framework.xml" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.Framework.dll_7" Component_="DocumentFormat.OpenXml.Framework.dll_7" FileName="DOCUME~1.DLL|DocumentFormat.OpenXml.Framework.dll" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.Framework.3.0.0\lib\net40\DocumentFormat.OpenXml.Framework.dll" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.Framework.xml_7" Component_="DocumentFormat.OpenXml.Framework.xml_5" FileName="DOCUME~1.XML|DocumentFormat.OpenXml.Framework.xml" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.Framework.3.0.0\lib\net40\DocumentFormat.OpenXml.Framework.xml" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.Framework.dll_8" Component_="DocumentFormat.OpenXml.Framework.dll_8" FileName="DOCUME~1.DLL|DocumentFormat.OpenXml.Framework.dll" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.Framework.3.0.0\lib\net46\DocumentFormat.OpenXml.Framework.dll" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.Framework.xml_8" Component_="DocumentFormat.OpenXml.Framework.xml_6" FileName="DOCUME~1.XML|DocumentFormat.OpenXml.Framework.xml" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.Framework.3.0.0\lib\net46\DocumentFormat.OpenXml.Framework.xml" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.Framework.dll_9" Component_="DocumentFormat.OpenXml.Framework.dll_9" FileName="DOCUME~1.DLL|DocumentFormat.OpenXml.Framework.dll" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.Framework.3.0.0\lib\net6.0\DocumentFormat.OpenXml.Framework.dll" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.Framework.xml_9" Component_="DocumentFormat.OpenXml.Framework.xml_7" FileName="DOCUME~1.XML|DocumentFormat.OpenXml.Framework.xml" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.Framework.3.0.0\lib\net6.0\DocumentFormat.OpenXml.Framework.xml" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.Framework.dll_10" Component_="DocumentFormat.OpenXml.Framework.dll_10" FileName="DOCUME~1.DLL|DocumentFormat.OpenXml.Framework.dll" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.Framework.3.0.0\lib\netstandard2.0\DocumentFormat.OpenXml.Framework.dll" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.Framework.xml_10" Component_="DocumentFormat.OpenXml.Framework.xml_8" FileName="DOCUME~1.XML|DocumentFormat.OpenXml.Framework.xml" Attributes="0" SourcePath="..\az_git\packages\DocumentFormat.OpenXml.Framework.3.0.0\lib\netstandard2.0\DocumentFormat.OpenXml.Framework.xml" SelfReg="false"/>
+    <ROW File="signature.p7s_21" Component_="signature.p7s_21" FileName="SIGNAT~1.P7S|.signature.p7s" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\.signature.p7s" SelfReg="false"/>
+    <ROW File="EntityFramework.DefaultItems.props" Component_="EntityFramework.DefaultItems.props" FileName="ENTITY~1.PRO|EntityFramework.DefaultItems.props" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\build\EntityFramework.DefaultItems.props" SelfReg="false"/>
+    <ROW File="EntityFramework.props" Component_="EntityFramework.DefaultItems.props" FileName="ENTITY~2.PRO|EntityFramework.props" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\build\EntityFramework.props" SelfReg="false"/>
+    <ROW File="EntityFramework.targets" Component_="EntityFramework.DefaultItems.props" FileName="ENTITY~1.TAR|EntityFramework.targets" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\build\EntityFramework.targets" SelfReg="false"/>
+    <ROW File="Microsoft.Data.Entity.Build.Tasks.dll" Component_="Microsoft.Data.Entity.Build.Tasks.dll" FileName="MICROS~1.DLL|Microsoft.Data.Entity.Build.Tasks.dll" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\build\Microsoft.Data.Entity.Build.Tasks.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.props_8" Component_="EntityFramework.props" FileName="ENTITY~1.PRO|EntityFramework.props" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\build\netcoreapp3.0\EntityFramework.props" SelfReg="false"/>
+    <ROW File="EntityFramework.targets_8" Component_="EntityFramework.props" FileName="ENTITY~1.TAR|EntityFramework.targets" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\build\netcoreapp3.0\EntityFramework.targets" SelfReg="false"/>
+    <ROW File="EntityFramework.props_9" Component_="EntityFramework.props_6" FileName="ENTITY~1.PRO|EntityFramework.props" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\buildTransitive\EntityFramework.props" SelfReg="false"/>
+    <ROW File="EntityFramework.targets_9" Component_="EntityFramework.props_6" FileName="ENTITY~1.TAR|EntityFramework.targets" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\buildTransitive\EntityFramework.targets" SelfReg="false"/>
+    <ROW File="EntityFramework.props_10" Component_="EntityFramework.props_7" FileName="ENTITY~1.PRO|EntityFramework.props" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\buildTransitive\netcoreapp3.0\EntityFramework.props" SelfReg="false"/>
+    <ROW File="EntityFramework.targets_10" Component_="EntityFramework.props_7" FileName="ENTITY~1.TAR|EntityFramework.targets" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\buildTransitive\netcoreapp3.0\EntityFramework.targets" SelfReg="false"/>
+    <ROW File="App.config.install.xdt" Component_="App.config.install.xdt" FileName="APPCON~1.XDT|App.config.install.xdt" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\content\net40\App.config.install.xdt" SelfReg="false"/>
+    <ROW File="App.config.transform" Component_="App.config.install.xdt" FileName="APPCON~1.TRA|App.config.transform" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\content\net40\App.config.transform" SelfReg="false"/>
+    <ROW File="Web.config.install.xdt" Component_="App.config.install.xdt" FileName="WEBCON~1.XDT|Web.config.install.xdt" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\content\net40\Web.config.install.xdt" SelfReg="false"/>
+    <ROW File="Web.config.transform" Component_="App.config.install.xdt" FileName="WEBCON~1.TRA|Web.config.transform" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\content\net40\Web.config.transform" SelfReg="false"/>
+    <ROW File="EntityFramework.6.4.4.nupkg" Component_="signature.p7s_21" FileName="ENTITY~1.NUP|EntityFramework.6.4.4.nupkg" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\EntityFramework.6.4.4.nupkg" SelfReg="false"/>
+    <ROW File="Icon.png_6" Component_="signature.p7s_21" FileName="Icon.png" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\Icon.png" SelfReg="false"/>
+    <ROW File="EntityFramework.dll" Component_="EntityFramework.dll" FileName="ENTITY~1.DLL|EntityFramework.dll" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\lib\net40\EntityFramework.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.SqlServer.dll" Component_="EntityFramework.SqlServer.dll" FileName="ENTITY~2.DLL|EntityFramework.SqlServer.dll" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\lib\net40\EntityFramework.SqlServer.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.SqlServer.xml" Component_="EntityFramework.SqlServer.xml" FileName="ENTITY~1.XML|EntityFramework.SqlServer.xml" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\lib\net40\EntityFramework.SqlServer.xml" SelfReg="false"/>
+    <ROW File="EntityFramework.xml" Component_="EntityFramework.SqlServer.xml" FileName="ENTITY~2.XML|EntityFramework.xml" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\lib\net40\EntityFramework.xml" SelfReg="false"/>
+    <ROW File="EntityFramework.dll_8" Component_="EntityFramework.dll_8" FileName="ENTITY~1.DLL|EntityFramework.dll" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.SqlServer.dll_8" Component_="EntityFramework.SqlServer.dll_8" FileName="ENTITY~2.DLL|EntityFramework.SqlServer.dll" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.SqlServer.xml_8" Component_="EntityFramework.SqlServer.xml_6" FileName="ENTITY~1.XML|EntityFramework.SqlServer.xml" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.xml" SelfReg="false"/>
+    <ROW File="EntityFramework.xml_8" Component_="EntityFramework.SqlServer.xml_6" FileName="ENTITY~2.XML|EntityFramework.xml" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.xml" SelfReg="false"/>
+    <ROW File="EntityFramework.dll_9" Component_="EntityFramework.dll_9" FileName="ENTITY~1.DLL|EntityFramework.dll" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\lib\netstandard2.1\EntityFramework.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.SqlServer.dll_9" Component_="EntityFramework.SqlServer.dll_9" FileName="ENTITY~2.DLL|EntityFramework.SqlServer.dll" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\lib\netstandard2.1\EntityFramework.SqlServer.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.SqlServer.xml_9" Component_="EntityFramework.SqlServer.xml_7" FileName="ENTITY~1.XML|EntityFramework.SqlServer.xml" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\lib\netstandard2.1\EntityFramework.SqlServer.xml" SelfReg="false"/>
+    <ROW File="EntityFramework.xml_9" Component_="EntityFramework.SqlServer.xml_7" FileName="ENTITY~2.XML|EntityFramework.xml" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\lib\netstandard2.1\EntityFramework.xml" SelfReg="false"/>
+    <ROW File="about_EntityFramework6.help.txt" Component_="about_EntityFramework6.help.txt" FileName="ABOUT_~1.TXT|about_EntityFramework6.help.txt" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\about_EntityFramework6.help.txt" SelfReg="false"/>
+    <ROW File="EntityFramework6.PS2.psd1" Component_="about_EntityFramework6.help.txt" FileName="ENTITY~1.PSD|EntityFramework6.PS2.psd1" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\EntityFramework6.PS2.psd1" SelfReg="false"/>
+    <ROW File="EntityFramework6.PS2.psm1" Component_="about_EntityFramework6.help.txt" FileName="ENTITY~1.PSM|EntityFramework6.PS2.psm1" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\EntityFramework6.PS2.psm1" SelfReg="false"/>
+    <ROW File="EntityFramework6.psd1" Component_="about_EntityFramework6.help.txt" FileName="ENTITY~2.PSD|EntityFramework6.psd1" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\EntityFramework6.psd1" SelfReg="false"/>
+    <ROW File="EntityFramework6.psm1" Component_="about_EntityFramework6.help.txt" FileName="ENTITY~2.PSM|EntityFramework6.psm1" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\EntityFramework6.psm1" SelfReg="false"/>
+    <ROW File="init.ps1" Component_="about_EntityFramework6.help.txt" FileName="init.ps1" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\init.ps1" SelfReg="false"/>
+    <ROW File="install.ps1" Component_="about_EntityFramework6.help.txt" FileName="install.ps1" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\install.ps1" SelfReg="false"/>
+    <ROW File="ef6.exe" Component_="ef6.exe" FileName="ef6.exe" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\net40\any\ef6.exe" SelfReg="false"/>
+    <ROW File="ef6.pdb" Component_="ef6.pdb_3" FileName="ef6.pdb" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\net40\any\ef6.pdb" SelfReg="false"/>
+    <ROW File="ef6.exe_10" Component_="ef6.exe_10" FileName="ef6.exe" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\net40\win-x86\ef6.exe" SelfReg="false"/>
+    <ROW File="ef6.pdb_12" Component_="ef6.pdb_1" FileName="ef6.pdb" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\net40\win-x86\ef6.pdb" SelfReg="false"/>
+    <ROW File="ef6.exe_11" Component_="ef6.exe_11" FileName="ef6.exe" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\net45\any\ef6.exe" SelfReg="false"/>
+    <ROW File="ef6.pdb_13" Component_="ef6.pdb_4" FileName="ef6.pdb" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\net45\any\ef6.pdb" SelfReg="false"/>
+    <ROW File="ef6.exe_12" Component_="ef6.exe_12" FileName="ef6.exe" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\net45\win-x86\ef6.exe" SelfReg="false"/>
+    <ROW File="ef6.pdb_14" Component_="ef6.pdb_2" FileName="ef6.pdb" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\net45\win-x86\ef6.pdb" SelfReg="false"/>
+    <ROW File="ef6.dll" Component_="ef6.dll" FileName="ef6.dll" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\netcoreapp3.0\any\ef6.dll" SelfReg="false"/>
+    <ROW File="ef6.pdb_15" Component_="ef6.pdb_5" FileName="ef6.pdb" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\netcoreapp3.0\any\ef6.pdb" SelfReg="false"/>
+    <ROW File="ef6.runtimeconfig.json" Component_="ef6.runtimeconfig.json" FileName="EF6RUN~1.JSO|ef6.runtimeconfig.json" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.4.4\tools\netcoreapp3.0\any\ef6.runtimeconfig.json" SelfReg="false"/>
+    <ROW File="signature.p7s_22" Component_="signature.p7s_22" FileName="SIGNAT~1.P7S|.signature.p7s" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\.signature.p7s" SelfReg="false"/>
+    <ROW File="EntityFramework.DefaultItems.props_2" Component_="EntityFramework.DefaultItems.props_2" FileName="ENTITY~1.PRO|EntityFramework.DefaultItems.props" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\build\EntityFramework.DefaultItems.props" SelfReg="false"/>
+    <ROW File="EntityFramework.props_11" Component_="EntityFramework.DefaultItems.props_2" FileName="ENTITY~2.PRO|EntityFramework.props" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\build\EntityFramework.props" SelfReg="false"/>
+    <ROW File="EntityFramework.targets_11" Component_="EntityFramework.DefaultItems.props_2" FileName="ENTITY~1.TAR|EntityFramework.targets" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\build\EntityFramework.targets" SelfReg="false"/>
+    <ROW File="Microsoft.Data.Entity.Build.Tasks.dll_2" Component_="Microsoft.Data.Entity.Build.Tasks.dll_2" FileName="MICROS~1.DLL|Microsoft.Data.Entity.Build.Tasks.dll" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\build\Microsoft.Data.Entity.Build.Tasks.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.props_12" Component_="EntityFramework.props_8" FileName="ENTITY~1.PRO|EntityFramework.props" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\build\net6.0\EntityFramework.props" SelfReg="false"/>
+    <ROW File="EntityFramework.targets_12" Component_="EntityFramework.props_8" FileName="ENTITY~1.TAR|EntityFramework.targets" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\build\net6.0\EntityFramework.targets" SelfReg="false"/>
+    <ROW File="EntityFramework.props_13" Component_="EntityFramework.props_9" FileName="ENTITY~1.PRO|EntityFramework.props" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\buildTransitive\EntityFramework.props" SelfReg="false"/>
+    <ROW File="EntityFramework.targets_13" Component_="EntityFramework.props_9" FileName="ENTITY~1.TAR|EntityFramework.targets" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\buildTransitive\EntityFramework.targets" SelfReg="false"/>
+    <ROW File="EntityFramework.props_14" Component_="EntityFramework.props_10" FileName="ENTITY~1.PRO|EntityFramework.props" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\buildTransitive\net6.0\EntityFramework.props" SelfReg="false"/>
+    <ROW File="EntityFramework.targets_14" Component_="EntityFramework.props_10" FileName="ENTITY~1.TAR|EntityFramework.targets" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\buildTransitive\net6.0\EntityFramework.targets" SelfReg="false"/>
+    <ROW File="App.config.install.xdt_2" Component_="App.config.install.xdt_2" FileName="APPCON~1.XDT|App.config.install.xdt" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\content\net40\App.config.install.xdt" SelfReg="false"/>
+    <ROW File="App.config.transform_2" Component_="App.config.install.xdt_2" FileName="APPCON~1.TRA|App.config.transform" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\content\net40\App.config.transform" SelfReg="false"/>
+    <ROW File="Web.config.install.xdt_2" Component_="App.config.install.xdt_2" FileName="WEBCON~1.XDT|Web.config.install.xdt" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\content\net40\Web.config.install.xdt" SelfReg="false"/>
+    <ROW File="Web.config.transform_2" Component_="App.config.install.xdt_2" FileName="WEBCON~1.TRA|Web.config.transform" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\content\net40\Web.config.transform" SelfReg="false"/>
+    <ROW File="EntityFramework.6.5.1.nupkg" Component_="signature.p7s_22" FileName="ENTITY~1.NUP|EntityFramework.6.5.1.nupkg" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\EntityFramework.6.5.1.nupkg" SelfReg="false"/>
+    <ROW File="Icon.png_7" Component_="signature.p7s_22" FileName="Icon.png" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\Icon.png" SelfReg="false"/>
+    <ROW File="EntityFramework.dll_10" Component_="EntityFramework.dll_10" FileName="ENTITY~1.DLL|EntityFramework.dll" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\lib\net40\EntityFramework.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.SqlServer.dll_10" Component_="EntityFramework.SqlServer.dll_10" FileName="ENTITY~2.DLL|EntityFramework.SqlServer.dll" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\lib\net40\EntityFramework.SqlServer.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.SqlServer.xml_10" Component_="EntityFramework.SqlServer.xml_8" FileName="ENTITY~1.XML|EntityFramework.SqlServer.xml" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\lib\net40\EntityFramework.SqlServer.xml" SelfReg="false"/>
+    <ROW File="EntityFramework.xml_10" Component_="EntityFramework.SqlServer.xml_8" FileName="ENTITY~2.XML|EntityFramework.xml" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\lib\net40\EntityFramework.xml" SelfReg="false"/>
+    <ROW File="EntityFramework.dll_11" Component_="EntityFramework.dll_11" FileName="ENTITY~1.DLL|EntityFramework.dll" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.SqlServer.dll_11" Component_="EntityFramework.SqlServer.dll_11" FileName="ENTITY~2.DLL|EntityFramework.SqlServer.dll" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.SqlServer.xml_11" Component_="EntityFramework.SqlServer.xml_9" FileName="ENTITY~1.XML|EntityFramework.SqlServer.xml" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.xml" SelfReg="false"/>
+    <ROW File="EntityFramework.xml_11" Component_="EntityFramework.SqlServer.xml_9" FileName="ENTITY~2.XML|EntityFramework.xml" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.xml" SelfReg="false"/>
+    <ROW File="EntityFramework.dll_12" Component_="EntityFramework.dll_12" FileName="ENTITY~1.DLL|EntityFramework.dll" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\lib\netstandard2.1\EntityFramework.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.SqlServer.dll_12" Component_="EntityFramework.SqlServer.dll_12" FileName="ENTITY~2.DLL|EntityFramework.SqlServer.dll" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\lib\netstandard2.1\EntityFramework.SqlServer.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.SqlServer.xml_12" Component_="EntityFramework.SqlServer.xml_10" FileName="ENTITY~1.XML|EntityFramework.SqlServer.xml" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\lib\netstandard2.1\EntityFramework.SqlServer.xml" SelfReg="false"/>
+    <ROW File="EntityFramework.xml_12" Component_="EntityFramework.SqlServer.xml_10" FileName="ENTITY~2.XML|EntityFramework.xml" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\lib\netstandard2.1\EntityFramework.xml" SelfReg="false"/>
+    <ROW File="README.md_2" Component_="signature.p7s_22" FileName="README.md" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\README.md" SelfReg="false"/>
+    <ROW File="about_EntityFramework6.help.txt_2" Component_="about_EntityFramework6.help.txt_2" FileName="ABOUT_~1.TXT|about_EntityFramework6.help.txt" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\about_EntityFramework6.help.txt" SelfReg="false"/>
+    <ROW File="EntityFramework6.PS2.psd1_2" Component_="about_EntityFramework6.help.txt_2" FileName="ENTITY~1.PSD|EntityFramework6.PS2.psd1" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\EntityFramework6.PS2.psd1" SelfReg="false"/>
+    <ROW File="EntityFramework6.PS2.psm1_2" Component_="about_EntityFramework6.help.txt_2" FileName="ENTITY~1.PSM|EntityFramework6.PS2.psm1" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\EntityFramework6.PS2.psm1" SelfReg="false"/>
+    <ROW File="EntityFramework6.psd1_2" Component_="about_EntityFramework6.help.txt_2" FileName="ENTITY~2.PSD|EntityFramework6.psd1" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\EntityFramework6.psd1" SelfReg="false"/>
+    <ROW File="EntityFramework6.psm1_2" Component_="about_EntityFramework6.help.txt_2" FileName="ENTITY~2.PSM|EntityFramework6.psm1" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\EntityFramework6.psm1" SelfReg="false"/>
+    <ROW File="init.ps1_2" Component_="about_EntityFramework6.help.txt_2" FileName="init.ps1" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\init.ps1" SelfReg="false"/>
+    <ROW File="install.ps1_2" Component_="about_EntityFramework6.help.txt_2" FileName="install.ps1" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\install.ps1" SelfReg="false"/>
+    <ROW File="ef6.exe_13" Component_="ef6.exe_13" FileName="ef6.exe" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\net40\any\ef6.exe" SelfReg="false"/>
+    <ROW File="ef6.pdb_16" Component_="ef6.pdb" FileName="ef6.pdb" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\net40\any\ef6.pdb" SelfReg="false"/>
+    <ROW File="ef6.exe_14" Component_="ef6.exe_19" FileName="ef6.exe" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\net40\win-arm64\ef6.exe" SelfReg="false"/>
+    <ROW File="ef6.pdb_17" Component_="ef6.exe_14" FileName="ef6.pdb" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\net40\win-arm64\ef6.pdb" SelfReg="false"/>
+    <ROW File="ef6.exe_15" Component_="ef6.exe_15" FileName="ef6.exe" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\net40\win-x86\ef6.exe" SelfReg="false"/>
+    <ROW File="ef6.pdb_18" Component_="ef6.pdb_6" FileName="ef6.pdb" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\net40\win-x86\ef6.pdb" SelfReg="false"/>
+    <ROW File="ef6.exe_16" Component_="ef6.exe_16" FileName="ef6.exe" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\net45\any\ef6.exe" SelfReg="false"/>
+    <ROW File="ef6.pdb_19" Component_="ef6.pdb_8" FileName="ef6.pdb" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\net45\any\ef6.pdb" SelfReg="false"/>
+    <ROW File="ef6.exe_17" Component_="ef6.exe_20" FileName="ef6.exe" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\net45\win-arm64\ef6.exe" SelfReg="false"/>
+    <ROW File="ef6.pdb_20" Component_="ef6.exe_17" FileName="ef6.pdb" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\net45\win-arm64\ef6.pdb" SelfReg="false"/>
+    <ROW File="ef6.exe_18" Component_="ef6.exe_18" FileName="ef6.exe" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\net45\win-x86\ef6.exe" SelfReg="false"/>
+    <ROW File="ef6.pdb_21" Component_="ef6.pdb_9" FileName="ef6.pdb" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\net45\win-x86\ef6.pdb" SelfReg="false"/>
+    <ROW File="ef6.dll_2" Component_="ef6.dll_2" FileName="ef6.dll" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\net6.0\any\ef6.dll" SelfReg="false"/>
+    <ROW File="ef6.pdb_22" Component_="ef6.pdb_7" FileName="ef6.pdb" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\net6.0\any\ef6.pdb" SelfReg="false"/>
+    <ROW File="ef6.runtimeconfig.json_2" Component_="ef6.runtimeconfig.json_2" FileName="EF6RUN~1.JSO|ef6.runtimeconfig.json" Attributes="0" SourcePath="..\az_git\packages\EntityFramework.6.5.1\tools\net6.0\any\ef6.runtimeconfig.json" SelfReg="false"/>
+    <ROW File="signature.p7s_23" Component_="signature.p7s_23" FileName="SIGNAT~1.P7S|.signature.p7s" Attributes="0" SourcePath="..\az_git\packages\iTextSharp.5.5.13.3\.signature.p7s" SelfReg="false"/>
+    <ROW File="gnuagplv3.0.md" Component_="signature.p7s_23" FileName="GNU-AG~1.MD|gnu-agpl-v3.0.md" Attributes="0" SourcePath="..\az_git\packages\iTextSharp.5.5.13.3\gnu-agpl-v3.0.md" SelfReg="false"/>
+    <ROW File="iTextSharp.5.5.13.3.nupkg" Component_="signature.p7s_23" FileName="ITEXTS~1.NUP|iTextSharp.5.5.13.3.nupkg" Attributes="0" SourcePath="..\az_git\packages\iTextSharp.5.5.13.3\iTextSharp.5.5.13.3.nupkg" SelfReg="false"/>
+    <ROW File="itextsharp.dll" Component_="itextsharp.dll" FileName="ITEXTS~1.DLL|itextsharp.dll" Attributes="0" SourcePath="..\az_git\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll" SelfReg="false"/>
+    <ROW File="iTextSharp.xml" Component_="iTextSharp.xml" FileName="ITEXTS~1.XML|iTextSharp.xml" Attributes="0" SourcePath="..\az_git\packages\iTextSharp.5.5.13.3\lib\iTextSharp.xml" SelfReg="false"/>
+    <ROW File="LICENSE.md" Component_="signature.p7s_23" FileName="LICENSE.md" Attributes="0" SourcePath="..\az_git\packages\iTextSharp.5.5.13.3\LICENSE.md" SelfReg="false"/>
+    <ROW File="notice.txt" Component_="signature.p7s_23" FileName="notice.txt" Attributes="0" SourcePath="..\az_git\packages\iTextSharp.5.5.13.3\notice.txt" SelfReg="false"/>
+    <ROW File="signature.p7s_24" Component_="signature.p7s_24" FileName="SIGNAT~1.P7S|.signature.p7s" Attributes="0" SourcePath="..\az_git\packages\Microsoft.Extensions.DependencyInjection.Abstractions.3.1.6\.signature.p7s" SelfReg="false"/>
+    <ROW File="Icon.png_8" Component_="signature.p7s_24" FileName="Icon.png" Attributes="0" SourcePath="..\az_git\packages\Microsoft.Extensions.DependencyInjection.Abstractions.3.1.6\Icon.png" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.DependencyInjection.Abstractions.dll" Component_="Microsoft.Extensions.DependencyInjection.Abstractions.dll" FileName="MICROS~1.DLL|Microsoft.Extensions.DependencyInjection.Abstractions.dll" Attributes="0" SourcePath="..\az_git\packages\Microsoft.Extensions.DependencyInjection.Abstractions.3.1.6\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.DependencyInjection.Abstractions.xml" Component_="Microsoft.Extensions.DependencyInjec_3_tion.Abstractions.xml" FileName="MICROS~1.XML|Microsoft.Extensions.DependencyInjection.Abstractions.xml" Attributes="0" SourcePath="..\az_git\packages\Microsoft.Extensions.DependencyInjection.Abstractions.3.1.6\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.xml" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.DependencyInjection.Abstractions.3.1.6.nupkg" Component_="signature.p7s_24" FileName="MICROS~1.NUP|Microsoft.Extensions.DependencyInjection.Abstractions.3.1.6.nupkg" Attributes="0" SourcePath="..\az_git\packages\Microsoft.Extensions.DependencyInjection.Abstractions.3.1.6\Microsoft.Extensions.DependencyInjection.Abstractions.3.1.6.nupkg" SelfReg="false"/>
+    <ROW File="Azmoon.resources.dll" Component_="Azmoon.resources.dll" FileName="AZMOON~1.DLL|Azmoon.resources.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\aa\Azmoon.resources.dll" SelfReg="false"/>
+    <ROW File="Azmoon.exe" Component_="Azmoon.exe" FileName="Azmoon.exe" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Azmoon.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="Azmoon.exe.config" Component_="Azmoon.exe.config" FileName="AZMOON~1.CON|Azmoon.exe.config" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Azmoon.exe.config" SelfReg="false"/>
+    <ROW File="Azmoon.pdb" Component_="Azmoon.pdb" FileName="Azmoon.pdb" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Azmoon.pdb" SelfReg="false"/>
+    <ROW File="Azmoon.vshost.exe" Component_="Azmoon.vshost.exe" FileName="AZMOON~1.EXE|Azmoon.vshost.exe" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Azmoon.vshost.exe" SelfReg="false"/>
+    <ROW File="Azmoon.vshost.exe.config" Component_="Azmoon.exe.config" FileName="AZMOON~2.CON|Azmoon.vshost.exe.config" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Azmoon.vshost.exe.config" SelfReg="false"/>
+    <ROW File="BouncyCastle.Crypto.dll_4" Component_="BouncyCastle.Crypto.dll_4" FileName="BOUNCY~1.DLL|BouncyCastle.Crypto.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\BouncyCastle.Crypto.dll" SelfReg="false"/>
+    <ROW File="Castle.Core.dll_9" Component_="Castle.Core.dll_9" FileName="CASTLE~1.DLL|Castle.Core.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Castle.Core.dll" SelfReg="false"/>
+    <ROW File="Castle.Core.xml_9" Component_="Azmoon.exe.config" FileName="CASTLE~1.XML|Castle.Core.xml" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Castle.Core.xml" SelfReg="false"/>
+    <ROW File="Common.Logging.Core.dll_7" Component_="Common.Logging.Core.dll_7" FileName="COMMON~1.DLL|Common.Logging.Core.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Common.Logging.Core.dll" SelfReg="false"/>
+    <ROW File="Common.Logging.Core.pdb_7" Component_="Common.Logging.Core.pdb_3" FileName="COMMON~1.PDB|Common.Logging.Core.pdb" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Common.Logging.Core.pdb" SelfReg="false"/>
+    <ROW File="Common.Logging.Core.xml_7" Component_="Azmoon.exe.config" FileName="COMMON~1.XML|Common.Logging.Core.xml" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Common.Logging.Core.xml" SelfReg="false"/>
+    <ROW File="Common.Logging.dll_7" Component_="Common.Logging.dll_7" FileName="COMMON~2.DLL|Common.Logging.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Common.Logging.dll" SelfReg="false"/>
+    <ROW File="Common.Logging.pdb_7" Component_="Common.Logging.pdb_3" FileName="COMMON~2.PDB|Common.Logging.pdb" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Common.Logging.pdb" SelfReg="false"/>
+    <ROW File="Common.Logging.xml_7" Component_="Azmoon.exe.config" FileName="COMMON~2.XML|Common.Logging.xml" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Common.Logging.xml" SelfReg="false"/>
+    <ROW File="Creatio.Client.dll_3" Component_="Creatio.Client.dll_3" FileName="CREATI~1.DLL|Creatio.Client.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Creatio.Client.dll" SelfReg="false"/>
+    <ROW File="Creatio.FeatureToggling.dll_3" Component_="Creatio.FeatureToggling.dll_3" FileName="CREATI~2.DLL|Creatio.FeatureToggling.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Creatio.FeatureToggling.dll" SelfReg="false"/>
+    <ROW File="DateTimeSelector.dll" Component_="DateTimeSelector.dll" FileName="DATETI~1.DLL|DateTimeSelector.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\DateTimeSelector.dll" SelfReg="false"/>
+    <ROW File="DevComponents.DotNetBar.Charts.dll" Component_="DevComponents.DotNetBar.Charts.dll" FileName="DEVCOM~1.DLL|DevComponents.DotNetBar.Charts.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\DevComponents.DotNetBar.Charts.dll" SelfReg="false"/>
+    <ROW File="DevComponents.DotNetBar2.dll" Component_="DevComponents.DotNetBar2.dll" FileName="DEVCOM~2.DLL|DevComponents.DotNetBar2.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\DevComponents.DotNetBar2.dll" SelfReg="false"/>
+    <ROW File="DevComponents.DotNetBar2.xml" Component_="Azmoon.exe.config" FileName="DEVCOM~1.XML|DevComponents.DotNetBar2.xml" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\DevComponents.DotNetBar2.xml" SelfReg="false"/>
+    <ROW File="DevComponents.Instrumentation.dll" Component_="DevComponents.Instrumentation.dll" FileName="DEVCOM~3.DLL|DevComponents.Instrumentation.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\DevComponents.Instrumentation.dll" SelfReg="false"/>
+    <ROW File="DevComponents.Instrumentation.xml" Component_="Azmoon.exe.config" FileName="DEVCOM~2.XML|DevComponents.Instrumentation.xml" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\DevComponents.Instrumentation.xml" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.dll_8" Component_="DocumentFormat.OpenXml.dll_8" FileName="DOCUME~1.DLL|DocumentFormat.OpenXml.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\DocumentFormat.OpenXml.dll" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.Framework.dll_12" Component_="DocumentFormat.OpenXml.Framework.dll_12" FileName="DOCUME~2.DLL|DocumentFormat.OpenXml.Framework.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\DocumentFormat.OpenXml.Framework.dll" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.Framework.xml_12" Component_="Azmoon.exe.config" FileName="DOCUME~1.XML|DocumentFormat.OpenXml.Framework.xml" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\DocumentFormat.OpenXml.Framework.xml" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.xml_8" Component_="Azmoon.exe.config" FileName="DOCUME~2.XML|DocumentFormat.OpenXml.xml" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\DocumentFormat.OpenXml.xml" SelfReg="false"/>
+    <ROW File="EntityFramework.dll_14" Component_="EntityFramework.dll_14" FileName="ENTITY~1.DLL|EntityFramework.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\EntityFramework.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.SqlServer.dll_14" Component_="EntityFramework.SqlServer.dll_14" FileName="ENTITY~2.DLL|EntityFramework.SqlServer.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\EntityFramework.SqlServer.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.SqlServer.xml_14" Component_="Azmoon.exe.config" FileName="ENTITY~1.XML|EntityFramework.SqlServer.xml" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\EntityFramework.SqlServer.xml" SelfReg="false"/>
+    <ROW File="EntityFramework.xml_14" Component_="Azmoon.exe.config" FileName="ENTITY~2.XML|EntityFramework.xml" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\EntityFramework.xml" SelfReg="false"/>
+    <ROW File="itextsharp.dll_4" Component_="itextsharp.dll_4" FileName="ITEXTS~1.DLL|itextsharp.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\itextsharp.dll" SelfReg="false"/>
+    <ROW File="itextsharp.xml_4" Component_="Azmoon.exe.config" FileName="ITEXTS~1.XML|itextsharp.xml" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\itextsharp.xml" SelfReg="false"/>
+    <ROW File="Microsoft.CSharp.dll" Component_="Microsoft.CSharp.dll" FileName="MICROS~1.DLL|Microsoft.CSharp.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Microsoft.CSharp.dll" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.DependencyInjec_3_tion.Abstractions.dll" Component_="Microsoft.Extensions.DependencyInjec_4_tion.Abstractions.dll" FileName="MICROS~2.DLL|Microsoft.Extensions.DependencyInjection.Abstractions.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.DependencyInjec_3_tion.Abstractions.xml" Component_="Azmoon.exe.config" FileName="MICROS~1.XML|Microsoft.Extensions.DependencyInjection.Abstractions.xml" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml" SelfReg="false"/>
+    <ROW File="model_new.Context.cs" Component_="Azmoon.exe.config" FileName="MODEL_~1.CS|model_new.Context.cs" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\model_new.Context.cs" SelfReg="false"/>
+    <ROW File="model_new.Context.tt" Component_="Azmoon.exe.config" FileName="MODEL_~1.TT|model_new.Context.tt" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\model_new.Context.tt" SelfReg="false"/>
+    <ROW File="model_new.cs" Component_="Azmoon.exe.config" FileName="MODEL_~2.CS|model_new.cs" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\model_new.cs" SelfReg="false"/>
+    <ROW File="model_new.Designer.cs" Component_="Azmoon.exe.config" FileName="MODEL_~3.CS|model_new.Designer.cs" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\model_new.Designer.cs" SelfReg="false"/>
+    <ROW File="model_new.edmx.diagram" Component_="Azmoon.exe.config" FileName="MODEL_~1.DIA|model_new.edmx.diagram" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\model_new.edmx.diagram" SelfReg="false"/>
+    <ROW File="model_new.tt" Component_="Azmoon.exe.config" FileName="MODEL_~2.TT|model_new.tt" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\model_new.tt" SelfReg="false"/>
+    <ROW File="ServiceStack.Interfaces.dll_3" Component_="ServiceStack.Interfaces.dll_3" FileName="SERVIC~1.DLL|ServiceStack.Interfaces.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\ServiceStack.Interfaces.dll" SelfReg="false"/>
+    <ROW File="System.ComponentModel.DataAnnotations.dll" Component_="System.ComponentModel.DataAnnotations.dll" FileName="SYSTEM~1.DLL|System.ComponentModel.DataAnnotations.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\System.ComponentModel.DataAnnotations.dll" SelfReg="false"/>
+    <ROW File="System.Data.DataSetExtensions.dll" Component_="System.Data.DataSetExtensions.dll" FileName="SYSTEM~2.DLL|System.Data.DataSetExtensions.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\System.Data.DataSetExtensions.dll" SelfReg="false"/>
+    <ROW File="System.Data.dll" Component_="System.Data.dll" FileName="SYSTEM~3.DLL|System.Data.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\System.Data.dll" SelfReg="false"/>
+    <ROW File="System.Deployment.dll" Component_="System.Deployment.dll" FileName="SYSTEM~4.DLL|System.Deployment.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\System.Deployment.dll" SelfReg="false"/>
+    <ROW File="System.Design.dll" Component_="System.Design.dll" FileName="SYSTEM~5.DLL|System.Design.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\System.Design.dll" SelfReg="false"/>
+    <ROW File="System.dll" Component_="System.dll" FileName="System.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\System.dll" SelfReg="false"/>
+    <ROW File="System.Drawing.dll" Component_="System.Drawing.dll" FileName="SYSTEM~6.DLL|System.Drawing.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\System.Drawing.dll" SelfReg="false"/>
+    <ROW File="System.Net.Http.dll" Component_="System.Net.Http.dll" FileName="SYSTEM~7.DLL|System.Net.Http.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\System.Net.Http.dll" SelfReg="false"/>
+    <ROW File="System.Runtime.Serialization.dll" Component_="System.Runtime.Serialization.dll" FileName="SYSTEM~8.DLL|System.Runtime.Serialization.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\System.Runtime.Serialization.dll" SelfReg="false"/>
+    <ROW File="System.Security.dll" Component_="System.Security.dll" FileName="SYSTEM~9.DLL|System.Security.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\System.Security.dll" SelfReg="false"/>
+    <ROW File="System.Windows.Forms.dll" Component_="System.Windows.Forms.dll" FileName="SYSTE~10.DLL|System.Windows.Forms.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\System.Windows.Forms.dll" SelfReg="false"/>
+    <ROW File="System.Xml.dll" Component_="System.Xml.dll" FileName="SYSTE~11.DLL|System.Xml.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\System.Xml.dll" SelfReg="false"/>
+    <ROW File="System.Xml.Linq.dll" Component_="System.Xml.Linq.dll" FileName="SYSTE~12.DLL|System.Xml.Linq.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\System.Xml.Linq.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Core.DI.dll_3" Component_="Terrasoft.Core.DI.dll_3" FileName="TERRAS~1.DLL|Terrasoft.Core.DI.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Terrasoft.Core.DI.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.IO.dll_3" Component_="Terrasoft.IO.dll_3" FileName="TERRAS~2.DLL|Terrasoft.IO.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Terrasoft.IO.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Messaging.Common.Standard._3_dll" Component_="Terrasoft.Messaging.Common.Standard._3_dll" FileName="TERRAS~3.DLL|Terrasoft.Messaging.Common.Standard.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Terrasoft.Messaging.Common.Standard.dll" SelfReg="false"/>
+    <ROW File="Terrasoft.Security.Secrets.dll_3" Component_="Terrasoft.Security.Secrets.dll_3" FileName="TERRAS~4.DLL|Terrasoft.Security.Secrets.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Terrasoft.Security.Secrets.dll" SelfReg="false"/>
+    <ROW File="WindowsBase.dll" Component_="WindowsBase.dll" FileName="WINDOW~1.DLL|WindowsBase.dll" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\WindowsBase.dll" SelfReg="false"/>
+    <ROW File="arial.ttf" Component_="arial.ttf" FileName="arial.ttf" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Debug\Reports\arial.ttf" SelfReg="false"/>
+    <ROW File="arialbd.ttf" Component_="arial.ttf" FileName="arialbd.ttf" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Debug\Reports\arialbd.ttf" SelfReg="false"/>
+    <ROW File="arialbi.ttf" Component_="arial.ttf" FileName="arialbi.ttf" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Debug\Reports\arialbi.ttf" SelfReg="false"/>
+    <ROW File="ariali.ttf" Component_="arial.ttf" FileName="ariali.ttf" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Debug\Reports\ariali.ttf" SelfReg="false"/>
+    <ROW File="ARIALN.TTF" Component_="arial.ttf" FileName="ARIALN.TTF" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Debug\Reports\ARIALN.TTF" SelfReg="false"/>
+    <ROW File="ARIALNB.TTF" Component_="arial.ttf" FileName="ARIALNB.TTF" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Debug\Reports\ARIALNB.TTF" SelfReg="false"/>
+    <ROW File="ARIALNBI.TTF" Component_="arial.ttf" FileName="ARIALNBI.TTF" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Debug\Reports\ARIALNBI.TTF" SelfReg="false"/>
+    <ROW File="ARIALNI.TTF" Component_="arial.ttf" FileName="ARIALNI.TTF" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Debug\Reports\ARIALNI.TTF" SelfReg="false"/>
+    <ROW File="ariblk.ttf" Component_="arial.ttf" FileName="ariblk.ttf" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Debug\Reports\ariblk.ttf" SelfReg="false"/>
+    <ROW File="BRoyaBold_0.ttf" Component_="arial.ttf" FileName="BROYAB~1.TTF|B Roya Bold_0.ttf" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Debug\Reports\B Roya Bold_0.ttf" SelfReg="false"/>
+    <ROW File="BRoya_0.ttf" Component_="arial.ttf" FileName="BROYA_~1.TTF|B Roya_0.ttf" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Debug\Reports\B Roya_0.ttf" SelfReg="false"/>
+    <ROW File="BTitrBd.ttf" Component_="arial.ttf" FileName="BTitrBd.ttf" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Debug\Reports\BTitrBd.ttf" SelfReg="false"/>
+    <ROW File="ReportResult.mrt" Component_="arial.ttf" FileName="REPORT~1.MRT|ReportResult.mrt" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Debug\Reports\ReportResult.mrt" SelfReg="false"/>
+    <ROW File="ReportStudentNumber.mrt" Component_="arial.ttf" FileName="REPORT~2.MRT|ReportStudentNumber.mrt" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Debug\Reports\ReportStudentNumber.mrt" SelfReg="false"/>
+    <ROW File="tahoma.ttf" Component_="arial.ttf" FileName="tahoma.ttf" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Debug\Reports\tahoma.ttf" SelfReg="false"/>
+    <ROW File="tahomabd.ttf" Component_="arial.ttf" FileName="tahomabd.ttf" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Debug\Reports\tahomabd.ttf" SelfReg="false"/>
+    <ROW File="Azmoon.exe_4" Component_="Azmoon.exe_4" FileName="Azmoon.exe" Attributes="0" SourcePath="..\az_git\Azmoon\bin\Release\Azmoon.exe" SelfReg="false" DigSign="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrapperUISequenceComponent">
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="249"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="252"/>
+    <ROW Action="AI_DetectSoftware" Sequence="151"/>
+    <ROW Action="AI_AppSearchEx" Condition="AI_BOOTSTRAPPER" Sequence="251"/>
+    <ROW Action="AI_DownloadPrereq" Condition="AI_BOOTSTRAPPER AND (NOT AI_PrereqsFulfilled)" Sequence="695"/>
+    <ROW Action="AI_ExtractPrereq" Condition="AI_BOOTSTRAPPER AND (NOT AI_PrereqsFulfilled)" Sequence="696"/>
+    <ROW Action="AI_InstallPrePrerequisite" Condition="AI_BOOTSTRAPPER AND (NOT AI_PrereqsFulfilled)" Sequence="697"/>
+    <ROW Action="AI_VerifyPrePrereq" Condition="AI_BOOTSTRAPPER AND (NOT AI_PrereqsFulfilled)" Sequence="698"/>
+    <ROW Action="AI_CleanPrePrereq" Condition="AI_BOOTSTRAPPER AND (NOT AI_PrereqsFulfilled)" Sequence="699"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="." Languages="en;fa" InstallationType="4" CabsLocation="1" PackageType="1" FilesInsideExe="true" SummInfoMetadata="Page Count:450" ExtractionFolder="[AppDataFolder][|Manufacturer]\[|ProductName] [|ProductVersion]\install" UseLargeSchema="true" MsiPackageType="AI_ALL"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_fa.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;appinstaller\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="PreparePrereqDlg.aip" Path="&lt;AI_THEMES&gt;appinstaller\fragments\PreparePrereqDlg.aip"/>
+    <ROW Fragment="PrerequisitesDlg.aip" Path="&lt;AI_THEMES&gt;appinstaller\fragments\PrerequisitesDlg.aip"/>
+    <ROW Fragment="ProgressPrereqDlg.aip" Path="&lt;AI_THEMES&gt;appinstaller\fragments\ProgressPrereqDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;appinstaller\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;appinstaller\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;appinstaller\fragments\WelcomeDlg.aip"/>
+    <ROW Fragment="WelcomePrereqDlg.aip" Path="&lt;AI_THEMES&gt;appinstaller\fragments\WelcomePrereqDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiActionTextComponent">
+    <ROW Action="AI_DeleteLzma" Description="Deleting files extracted from archive" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_DeleteRLzma" Description="Deleting files extracted from archive" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_DownloadPrereq" Description="Downloading prerequisite software" DescriptionLocId="ActionText.Description.AI_DownloadPrereq" Template="[1]" TemplateLocId="ActionText.Template.AI_DownloadPrereq"/>
+    <ROW Action="AI_ExtractFiles" Description="Extracting files from archive" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractLzma" Description="Extracting files from archive" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractPrereq" Description="Extracting prerequisite software" DescriptionLocId="ActionText.Description.AI_ExtractPrereq" Template="[1]" TemplateLocId="ActionText.Template.AI_ExtractPrereq"/>
+    <ROW Action="AI_InstallPostPrerequisite" Description="Installing prerequisite software" DescriptionLocId="ActionText.Description.AI_InstallPrerequisite" Template="[1]" TemplateLocId="ActionText.Template.AI_InstallPrerequisite"/>
+    <ROW Action="AI_InstallPrePrerequisite" Description="Installing prerequisite software" DescriptionLocId="ActionText.Description.AI_InstallPrerequisite" Template="[1]" TemplateLocId="ActionText.Template.AI_InstallPrerequisite"/>
+    <ROW Action="AI_InstallPrerequisite" Description="Installing prerequisite software" DescriptionLocId="ActionText.Description.AI_InstallPrerequisite" Template="[1]" TemplateLocId="ActionText.Template.AI_InstallPrerequisite"/>
+    <ROW Action="AI_VerifyPrePrereq" Description="Verifying prerequisites" DescriptionLocId="ActionText.Description.AI_VerifyPrereq" Template="[1] was not installed correctly." TemplateLocId="ActionText.Template.AI_VerifyPrereq"/>
+    <ROW Action="AI_VerifyPrereq" Description="Verifying prerequisites" DescriptionLocId="ActionText.Description.AI_VerifyPrereq" Template="[1] was not installed correctly." TemplateLocId="ActionText.Template.AI_VerifyPrereq"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAppSearchComponent">
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_LM" Builds="DefaultBuild"/>
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_CU" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="Prereq.dll" SourcePath="&lt;AI_CUSTACTS&gt;Prereq.dll"/>
+    <ROW Name="ShortcutFlags.dll" SourcePath="&lt;AI_CUSTACTS&gt;ShortcutFlags.dll"/>
+    <ROW Name="SoftwareDetector.dll" SourcePath="&lt;AI_CUSTACTS&gt;SoftwareDetector.dll"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+    <ROW Name="lzmaextractor.dll" SourcePath="&lt;AI_CUSTACTS&gt;lzmaextractor.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiConditionComponent">
+    <ROW Feature_="AI64BitFiles" Level="0" Condition="NOT VersionNT64"/>
+    <ROW Feature_="AI32BitFiles" Level="0" Condition="VersionNT64"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control="MaintenanceWelcomeDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1" TextLocId="-" HelpLocId="-" ExtDataLocId="-"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="Description" Type="Text" X="16" Y="94" Width="458" Height="57" Attributes="196611" Text="The highlighted volumes do not have enough disk space available for the currently selected features. You can either remove some files from the highlighted volumes,or select different destination drive(s). Alternatively, you may choose to disable the installer&apos;s rollback functionality. Click Yes if you wish to take the risk to disable rollback." TextStyle="[DescriptionFont]" Order="400" TextLocId="AppInstaller.Control.Text.OutOfRbDiskDlg#Description" MsiKey="OutOfRbDiskDlg#Description"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="VolumeList" Type="VolumeCostList" X="16" Y="151" Width="458" Height="54" Attributes="393223" Text="{120}{70}{70}{70}{70}" TextStyle="ListFontDark" Order="500" TextLocId="Control.Text.OutOfDiskDlg#VolumeList" MsiKey="OutOfRbDiskDlg#VolumeList"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="ProductNameTitle" Type="Text" X="15" Y="17" Width="364" Height="32" Attributes="196611" Text="Install [ProductName]?" TextStyle="[ProductNameTitleFont]" Order="600" TextLocId="AppInstaller.Control.Text.ProductName" MsiKey="OutOfRbDiskDlg#ProductNameTitle"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="CompanyText" Type="Text" X="16" Y="46" Width="362" Height="15" Attributes="196611" Text="Publisher: [Manufacturer]" TextStyle="[ManufacturerFont]" Order="700" TextLocId="AppInstaller.Control.Text.Manufacturer" MsiKey="OutOfRbDiskDlg#CompanyText"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="ProductLogo" Type="Bitmap" X="404" Y="15" Width="70" Height="70" Attributes="1" Text="[AppLogoIcon]" Order="800" MsiKey="OutOfRbDiskDlg#ProductLogo"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="ProducVersionText" Type="Text" X="16" Y="60" Width="362" Height="15" Attributes="196611" Text="Version: [ProductVersion]" TextStyle="[ManufacturerFont]" Order="900" TextLocId="AppInstaller.Control.Text.ProductVersion" MsiKey="OutOfRbDiskDlg#ProducVersionText"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="AboutBtn" Type="ImageButton" X="5" Y="269" Width="18" Height="18" Attributes="4718595" Text="[AboutBtnIcon]" TextStyle="[ManufacturerFont]" Order="1000" MsiKey="OutOfRbDiskDlg#AboutBtn" Options="1" ExtType="ImageButton" ExtData="[InfoIconMsi]"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="PatchWelcomeDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1" TextLocId="-" HelpLocId="-" ExtDataLocId="-"/>
+    <ROW Dialog_="PreparePrereqDlg" Control="ProducVersionText" Type="Text" X="16" Y="60" Width="362" Height="15" Attributes="196611" Text="Version: [ProductVersion]" TextStyle="[ManufacturerFont]" Order="800" TextLocId="AppInstaller.Control.Text.ProductVersion" MsiKey="PreparePrereqDlg#ProducVersionText"/>
+    <ROW Dialog_="PreparePrereqDlg" Control="AboutBtn" Type="ImageButton" X="5" Y="269" Width="18" Height="18" Attributes="4718595" Text="[AboutBtnIcon]" TextStyle="[ManufacturerFont]" Order="900" MsiKey="PreparePrereqDlg#AboutBtn" Options="1" ExtType="ImageButton" ExtData="[InfoIconMsi]"/>
+    <ROW Dialog_="PrerequisitesDlg" Control="Cancel" Type="ImageButton" X="0" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonImage]" TextStyle="[ImageBtnFont]" Order="100" MsiKey="PrerequisitesDlg#Cancel" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]" ExtDataLocId="-"/>
+    <ROW Dialog_="WelcomeDlg" Control="WelcomeDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1" TextLocId="-" HelpLocId="-" ExtDataLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomePrereqDlg" Control_="Next" Event="NewDialog" Argument="PrerequisitesDlg" Condition="AI_BOOTSTRAPPER" Ordering="1"/>
+    <ROW Dialog_="PrerequisitesDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_BOOTSTRAPPER" Ordering="101"/>
+    <ROW Dialog_="PrerequisitesDlg" Control_="Back" Event="NewDialog" Argument="WelcomePrereqDlg" Condition="AI_BOOTSTRAPPER" Ordering="101"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_INSTALL AND CustomInstallation" Ordering="2"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="99"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_INSTALL AND CustomInstallation AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="3" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_INSTALL AND CustomInstallation AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="4" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_INSTALL AND CustomInstallation AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="5" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_INSTALL AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="6" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_INSTALL AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="7" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_INSTALL AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="8" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="WelcomeDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_INSTALL" Ordering="0" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="WelcomeDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_INSTALL" Ordering="1" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="WelcomeDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_INSTALL" Ordering="2" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="WelcomeDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_INSTALL" Ordering="3" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_INSTALL" Ordering="9" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_INSTALL" Ordering="10" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Back" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_INSTALL" Ordering="0" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Back" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_INSTALL" Ordering="1" Options="2"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_MAINT AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="2" Options="2"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_MAINT AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="3" Options="2"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_MAINT AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="4" Options="2"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="MaintenanceWelcomeDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_MAINT" Ordering="0" Options="2"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="MaintenanceWelcomeDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_MAINT" Ordering="1" Options="2"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="MaintenanceWelcomeDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_MAINT" Ordering="2" Options="2"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="MaintenanceWelcomeDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_MAINT" Ordering="3" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_PATCH AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="202" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_PATCH AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="203" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_PATCH AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="204" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_PATCH" Ordering="0" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_PATCH" Ordering="1" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_PATCH" Ordering="2" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_PATCH" Ordering="3" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Back" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_PATCH" Ordering="0" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Back" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_PATCH" Ordering="1" Options="2"/>
+    <ROW Dialog_="FatalError" Control_="Finish" Event="DoAction" Argument="AI_RollbackPrereq" Condition="1" Ordering="201"/>
+    <ROW Dialog_="ExitDialog" Control_="Finish" Event="DoAction" Argument="AI_CleanPrereq" Condition="1" Ordering="201"/>
+    <ROW Dialog_="FatalError" Control_="Finish" Event="DoAction" Argument="AI_CleanPrereq" Condition="1" Ordering="202"/>
+    <ROW Dialog_="UserExit" Control_="Finish" Event="DoAction" Argument="AI_CleanPrereq" Condition="1" Ordering="101"/>
+    <ROW Dialog_="FatalError" Control_="Finish" Event="DoAction" Argument="AI_RollbackPrePrereq" Condition="1" Ordering="203"/>
+    <ROW Dialog_="ExitDialog" Control_="Finish" Event="DoAction" Argument="AI_CleanPrePrereq" Condition="1" Ordering="202"/>
+    <ROW Dialog_="FatalError" Control_="Finish" Event="DoAction" Argument="AI_CleanPrePrereq" Condition="1" Ordering="204"/>
+    <ROW Dialog_="UserExit" Control_="Finish" Event="DoAction" Argument="AI_CleanPrePrereq" Condition="1" Ordering="102"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_AppSearchEx" Type="1" Source="Prereq.dll" Target="DoAppSearchEx"/>
+    <ROW Action="AI_ApplyShortcutFlags" Type="3073" Source="ShortcutFlags.dll" Target="UpdateShortcutFlags" WithoutSeq="true"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH_ORIGINAL" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_ChooseTextStyles" Type="1" Source="aicustact.dll" Target="ChooseTextStyles"/>
+    <ROW Action="AI_CleanPrePrereq" Type="65" Source="Prereq.dll" Target="CleanPrereq" WithoutSeq="true"/>
+    <ROW Action="AI_CleanPrereq" Type="65" Source="Prereq.dll" Target="CleanPrereq" WithoutSeq="true"/>
+    <ROW Action="AI_DATA_SETTER" Type="51" Source="CustomActionData" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DeleteCadLzma" Type="51" Source="AI_DeleteLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteLzma" Type="1025" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DeleteRCadLzma" Type="51" Source="AI_DeleteRLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteRLzma" Type="1281" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DetectSoftware" Type="257" Source="SoftwareDetector.dll" Target="OnDetectSoftware"/>
+    <ROW Action="AI_DownloadPrereq" Type="1" Source="Prereq.dll" Target="DownloadPrereq"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_ExtractCadLzma" Type="51" Source="AI_ExtractLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_ExtractFiles" Type="1" Source="Prereq.dll" Target="ExtractSourceFiles" AdditionalSeq="AI_DATA_SETTER"/>
+    <ROW Action="AI_ExtractLzma" Type="1025" Source="lzmaextractor.dll" Target="ExtractLZMAFiles"/>
+    <ROW Action="AI_ExtractPrereq" Type="65" Source="Prereq.dll" Target="ExtractPrereq"/>
+    <ROW Action="AI_FindExeLzma" Type="1" Source="lzmaextractor.dll" Target="FindEXE"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_InstallPostPrerequisite" Type="1" Source="Prereq.dll" Target="InstallPostPrereq"/>
+    <ROW Action="AI_InstallPrePrerequisite" Type="65" Source="Prereq.dll" Target="InstallPrePrereq"/>
+    <ROW Action="AI_InstallPrerequisite" Type="1" Source="Prereq.dll" Target="InstallPrereq"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Type="65" Source="aicustact.dll" Target="PreserveInstallType"/>
+    <ROW Action="AI_PinShortcuts" Type="1" Source="ShortcutFlags.dll" Target="PinShortcuts"/>
+    <ROW Action="AI_PinToStartScreen" Type="1025" Source="ShortcutFlags.dll" Target="PinToStartScreen" WithoutSeq="true"/>
+    <ROW Action="AI_PinToTaskbar" Type="1025" Source="ShortcutFlags.dll" Target="PinToTaskbar" WithoutSeq="true"/>
+    <ROW Action="AI_PrepareShortcutFlags" Type="1" Source="ShortcutFlags.dll" Target="PrepareActionData"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH" Target="[AI_SETUPEXEPATH_ORIGINAL]"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_RollbackPrePrereq" Type="65" Source="Prereq.dll" Target="RollbackPrePrereq" WithoutSeq="true"/>
+    <ROW Action="AI_RollbackPrereq" Type="65" Source="Prereq.dll" Target="RollbackPrereq" WithoutSeq="true"/>
+    <ROW Action="AI_SETPROGRAMFILES" Type="51" Source="AI_ProgramFiles" Target="[ProgramFilesFolder]"/>
+    <ROW Action="AI_SETPROGRAMFILES64" Type="51" Source="AI_ProgramFiles" Target="[ProgramFiles64Folder]"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="AI_UnpinFromStartScreen" Type="1025" Source="ShortcutFlags.dll" Target="UnpinFromStartScreen" WithoutSeq="true"/>
+    <ROW Action="AI_UnpinFromTaskbar" Type="1025" Source="ShortcutFlags.dll" Target="UnpinFromTaskbar" WithoutSeq="true"/>
+    <ROW Action="AI_UnpinShortcuts" Type="1" Source="ShortcutFlags.dll" Target="UnpinShortcuts"/>
+    <ROW Action="AI_VerifyPrePrereq" Type="1" Source="Prereq.dll" Target="VerifyPrePrereq"/>
+    <ROW Action="AI_VerifyPrereq" Type="1" Source="Prereq.dll" Target="VerifyPrereq"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]" MultiBuildTarget="DefaultBuild:[AI_ProgramFiles][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="AI_ExePath"/>
+    <ROW Feature_="AIOtherFiles" Component_="signature.p7s_18"/>
+    <ROW Feature_="AI64BitFiles" Component_="ef6.exe_19"/>
+    <ROW Feature_="AI64BitFiles" Component_="ef6.exe_20"/>
+    <ROW Feature_="AIOtherFiles" Component_="EntityFramework.props_8"/>
+    <ROW Feature_="AIOtherFiles" Component_="DocumentFormat.OpenXml.xml_4"/>
+    <ROW Feature_="AIOtherFiles" Component_="Castle.Core.xml_4"/>
+    <ROW Feature_="AIOtherFiles" Component_="signature.p7s_13"/>
+    <ROW Feature_="AIOtherFiles" Component_="signature.p7s_14"/>
+    <ROW Feature_="AIOtherFiles" Component_="signature.p7s"/>
+    <ROW Feature_="AIOtherFiles" Component_="signature.p7s_16"/>
+    <ROW Feature_="AIOtherFiles" Component_="arial.ttf"/>
+    <ROW Feature_="AIOtherFiles" Component_="about_EntityFramework6.help.txt_2"/>
+    <ROW Feature_="AIOtherFiles" Component_="DocumentFormat.OpenXml.Framework.xml"/>
+    <ROW Feature_="AIOtherFiles" Component_="DocumentFormat.OpenXml.Framework.xml_6"/>
+    <ROW Feature_="AIOtherFiles" Component_="Common.Logging.Core.pdb"/>
+    <ROW Feature_="AIOtherFiles" Component_="signature.p7s_17"/>
+    <ROW Feature_="AIOtherFiles" Component_="EntityFramework.props"/>
+    <ROW Feature_="AIOtherFiles" Component_="DocumentFormat.OpenXml.Framework.xml_5"/>
+    <ROW Feature_="AIOtherFiles" Component_="DocumentFormat.OpenXml.xml_3"/>
+    <ROW Feature_="AIOtherFiles" Component_="Azmoon.exe.config"/>
+    <ROW Feature_="AIOtherFiles" Component_="EntityFramework.DefaultItems.props"/>
+    <ROW Feature_="AIOtherFiles" Component_="signature.p7s_19"/>
+    <ROW Feature_="AIOtherFiles" Component_="EntityFramework.props_6"/>
+    <ROW Feature_="AIOtherFiles" Component_="App.config.install.xdt_2"/>
+    <ROW Feature_="AIOtherFiles" Component_="signature.p7s_23"/>
+    <ROW Feature_="AIOtherFiles" Component_="Castle.Core.xml"/>
+    <ROW Feature_="AIOtherFiles" Component_="Common.Logging.pdb"/>
+    <ROW Feature_="AIOtherFiles" Component_="Castle.Core.xml_5"/>
+    <ROW Feature_="AIOtherFiles" Component_="signature.p7s_21"/>
+    <ROW Feature_="AIOtherFiles" Component_="Castle.Core.xml_6"/>
+    <ROW Feature_="AIOtherFiles" Component_="signature.p7s_20"/>
+    <ROW Feature_="AIOtherFiles" Component_="Common.Logging.Core.pdb_1"/>
+    <ROW Feature_="AIOtherFiles" Component_="about_EntityFramework6.help.txt"/>
+    <ROW Feature_="AIOtherFiles" Component_="ef6.pdb"/>
+    <ROW Feature_="AIOtherFiles" Component_="Common.Logging.Core.XML_2"/>
+    <ROW Feature_="AIOtherFiles" Component_="Common.Logging.Core.XML"/>
+    <ROW Feature_="AIOtherFiles" Component_="Common.Logging.Core.pdb_2"/>
+    <ROW Feature_="AIOtherFiles" Component_="Common.Logging.Core.xml"/>
+    <ROW Feature_="AIOtherFiles" Component_="ef6.pdb_1"/>
+    <ROW Feature_="AIOtherFiles" Component_="signature.p7s_15"/>
+    <ROW Feature_="AIOtherFiles" Component_="DocumentFormat.OpenXml.xml"/>
+    <ROW Feature_="AIOtherFiles" Component_="Common.Logging.xml"/>
+    <ROW Feature_="AIOtherFiles" Component_="Common.Logging.xml_3"/>
+    <ROW Feature_="AIOtherFiles" Component_="Common.Logging.pdb_1"/>
+    <ROW Feature_="AIOtherFiles" Component_="Common.Logging.pdb_2"/>
+    <ROW Feature_="AIOtherFiles" Component_="Common.Logging.xml_4"/>
+    <ROW Feature_="AIOtherFiles" Component_="DocumentFormat.OpenXml.Framework.xml_7"/>
+    <ROW Feature_="AIOtherFiles" Component_="DocumentFormat.OpenXml.Framework.xml_8"/>
+    <ROW Feature_="AIOtherFiles" Component_="EntityFramework.props_7"/>
+    <ROW Feature_="AIOtherFiles" Component_="App.config.install.xdt"/>
+    <ROW Feature_="AIOtherFiles" Component_="ef6.runtimeconfig.json"/>
+    <ROW Feature_="AIOtherFiles" Component_="ef6.pdb_2"/>
+    <ROW Feature_="AIOtherFiles" Component_="ef6.pdb_3"/>
+    <ROW Feature_="AIOtherFiles" Component_="ef6.pdb_4"/>
+    <ROW Feature_="AIOtherFiles" Component_="ef6.pdb_5"/>
+    <ROW Feature_="AIOtherFiles" Component_="EntityFramework.SqlServer.xml"/>
+    <ROW Feature_="AIOtherFiles" Component_="EntityFramework.SqlServer.xml_6"/>
+    <ROW Feature_="AIOtherFiles" Component_="EntityFramework.SqlServer.xml_7"/>
+    <ROW Feature_="AIOtherFiles" Component_="signature.p7s_22"/>
+    <ROW Feature_="AIOtherFiles" Component_="EntityFramework.props_9"/>
+    <ROW Feature_="AIOtherFiles" Component_="EntityFramework.props_10"/>
+    <ROW Feature_="AIOtherFiles" Component_="EntityFramework.DefaultItems.props_2"/>
+    <ROW Feature_="AIOtherFiles" Component_="EntityFramework.SqlServer.xml_10"/>
+    <ROW Feature_="AIOtherFiles" Component_="EntityFramework.SqlServer.xml_8"/>
+    <ROW Feature_="AIOtherFiles" Component_="EntityFramework.SqlServer.xml_9"/>
+    <ROW Feature_="AIOtherFiles" Component_="ef6.exe_14"/>
+    <ROW Feature_="AIOtherFiles" Component_="ef6.runtimeconfig.json_2"/>
+    <ROW Feature_="AIOtherFiles" Component_="ef6.pdb_6"/>
+    <ROW Feature_="AIOtherFiles" Component_="ef6.pdb_7"/>
+    <ROW Feature_="AIOtherFiles" Component_="ef6.exe_17"/>
+    <ROW Feature_="AIOtherFiles" Component_="iTextSharp.xml"/>
+    <ROW Feature_="AIOtherFiles" Component_="ef6.pdb_8"/>
+    <ROW Feature_="AIOtherFiles" Component_="ef6.pdb_9"/>
+    <ROW Feature_="AIOtherFiles" Component_="signature.p7s_24"/>
+    <ROW Feature_="AIOtherFiles" Component_="Microsoft.Extensions.DependencyInjec_3_tion.Abstractions.xml"/>
+    <ROW Feature_="AI32BitFiles" Component_="System.Xml.Linq.dll"/>
+    <ROW Feature_="AIOtherFiles" Component_="Azmoon.pdb"/>
+    <ROW Feature_="AIOtherFiles" Component_="Common.Logging.Core.pdb_3"/>
+    <ROW Feature_="AIOtherFiles" Component_="Common.Logging.pdb_3"/>
+    <ROW Feature_="AI32BitFiles" Component_="DocumentFormat.OpenXml.Framework.dll_10"/>
+    <ROW Feature_="AI32BitFiles" Component_="Azmoon.exe_4"/>
+    <ROW Feature_="AI32BitFiles" Component_="DocumentFormat.OpenXml.dll_5"/>
+    <ROW Feature_="AI32BitFiles" Component_="Creatio.FeatureToggling.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="DocumentFormat.OpenXml.Framework.dll_9"/>
+    <ROW Feature_="AI32BitFiles" Component_="Quartz.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Core.DI.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="DocumentFormat.OpenXml.dll_6"/>
+    <ROW Feature_="AI32BitFiles" Component_="ServiceStack.Interfaces.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Common.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Castle.Core.dll_5"/>
+    <ROW Feature_="AI32BitFiles" Component_="Common.Logging.Core.dll_7"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Core.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Core.Packages.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Web.Common.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Microsoft.Data.Entity.Build.Tasks.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Core.ConfigurationBuild.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Core.Process.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="DocumentFormat.OpenXml.Framework.dll_8"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Core.Scheduler.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Castle.Core.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Core.ScriptEngine.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Core.ServiceModelContract.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="EntityFramework.dll_14"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Core.Translation.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.File.Abstractions.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="EntityFramework.SqlServer.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="itextsharp.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.File.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.GlobalSearch.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.GoogleServerConnector.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="ef6.exe"/>
+    <ROW Feature_="AI32BitFiles" Component_="Castle.Core.dll_7"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.GoogleServices.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="DocumentFormat.OpenXml.Framework.dll_7"/>
+    <ROW Feature_="AI32BitFiles" Component_="Creatio.Client.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.IO.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="BouncyCastle.Crypto.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Messaging.Common.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Messaging.Common.Standard.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="ef6.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="ef6.exe_15"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Mobile.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Web.Http.Abstractions.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="DocumentFormat.OpenXml.dll_8"/>
+    <ROW Feature_="AI32BitFiles" Component_="System.Security.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Monitoring.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Reports.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="EntityFramework.dll_8"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Nui.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Nui.ServiceModel.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Security.Secrets.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Services.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Social.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Common.Logging.Core.dll_5"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Sync.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Common.Logging.Core.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="ATF.Repository.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Castle.Core.dll_6"/>
+    <ROW Feature_="AI32BitFiles" Component_="Common.Logging.Core.dll_4"/>
+    <ROW Feature_="AI32BitFiles" Component_="Common.Logging.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Common.Logging.dll_4"/>
+    <ROW Feature_="AI32BitFiles" Component_="EntityFramework.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Common.Logging.dll_5"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Messaging.Common.Standard._3_dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="DocumentFormat.OpenXml.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="DocumentFormat.OpenXml.Framework.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="EntityFramework.SqlServer.dll_8"/>
+    <ROW Feature_="AI32BitFiles" Component_="ef6.exe_10"/>
+    <ROW Feature_="AI32BitFiles" Component_="ef6.exe_11"/>
+    <ROW Feature_="AI32BitFiles" Component_="ef6.exe_12"/>
+    <ROW Feature_="AI32BitFiles" Component_="EntityFramework.SqlServer.dll_9"/>
+    <ROW Feature_="AI32BitFiles" Component_="EntityFramework.dll_9"/>
+    <ROW Feature_="AI32BitFiles" Component_="Microsoft.Data.Entity.Build.Tasks.dll_2"/>
+    <ROW Feature_="AI32BitFiles" Component_="EntityFramework.dll_12"/>
+    <ROW Feature_="AI32BitFiles" Component_="EntityFramework.SqlServer.dll_12"/>
+    <ROW Feature_="AI32BitFiles" Component_="EntityFramework.dll_10"/>
+    <ROW Feature_="AI32BitFiles" Component_="EntityFramework.SqlServer.dll_10"/>
+    <ROW Feature_="AI32BitFiles" Component_="System.ComponentModel.DataAnnotations.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="EntityFramework.dll_11"/>
+    <ROW Feature_="AI32BitFiles" Component_="EntityFramework.SqlServer.dll_11"/>
+    <ROW Feature_="AI32BitFiles" Component_="ef6.exe_13"/>
+    <ROW Feature_="AI32BitFiles" Component_="ef6.dll_2"/>
+    <ROW Feature_="AI32BitFiles" Component_="ef6.exe_16"/>
+    <ROW Feature_="AI32BitFiles" Component_="ef6.exe_18"/>
+    <ROW Feature_="AI32BitFiles" Component_="Microsoft.Extensions.DependencyInjection.Abstractions.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Security.Secrets.dll_3"/>
+    <ROW Feature_="AI32BitFiles" Component_="Azmoon.vshost.exe"/>
+    <ROW Feature_="AI32BitFiles" Component_="Azmoon.exe"/>
+    <ROW Feature_="AI32BitFiles" Component_="System.Data.DataSetExtensions.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Creatio.Client.dll_3"/>
+    <ROW Feature_="AI32BitFiles" Component_="WindowsBase.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="BouncyCastle.Crypto.dll_4"/>
+    <ROW Feature_="AI32BitFiles" Component_="Castle.Core.dll_9"/>
+    <ROW Feature_="AI32BitFiles" Component_="System.Runtime.Serialization.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Common.Logging.dll_7"/>
+    <ROW Feature_="AI32BitFiles" Component_="DateTimeSelector.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Creatio.FeatureToggling.dll_3"/>
+    <ROW Feature_="AI32BitFiles" Component_="DevComponents.DotNetBar.Charts.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="DevComponents.DotNetBar2.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.IO.dll_3"/>
+    <ROW Feature_="AI32BitFiles" Component_="DevComponents.Instrumentation.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="DocumentFormat.OpenXml.Framework.dll_12"/>
+    <ROW Feature_="AI32BitFiles" Component_="System.Data.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="EntityFramework.SqlServer.dll_14"/>
+    <ROW Feature_="AI32BitFiles" Component_="itextsharp.dll_4"/>
+    <ROW Feature_="AI32BitFiles" Component_="Microsoft.CSharp.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Microsoft.Extensions.DependencyInjec_4_tion.Abstractions.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="System.Windows.Forms.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="System.Design.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="ServiceStack.Interfaces.dll_3"/>
+    <ROW Feature_="AI32BitFiles" Component_="System.Deployment.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="System.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="System.Drawing.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="System.Net.Http.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="System.Xml.dll"/>
+    <ROW Feature_="AI32BitFiles" Component_="Terrasoft.Core.DI.dll_3"/>
+    <ROW Feature_="AI32BitFiles" Component_="Azmoon.resources.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="SystemFoldermsiexec.exe" SourcePath="C:\Users\Dr.Askari\Downloads\trash-can_115312.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="747"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1397"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99" Builds="DefaultBuild"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="103" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="199" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="198" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="197" Builds="DefaultBuild"/>
+    <ROW Action="AI_FindExeLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="196" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1549" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1548" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="6599" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractFiles" Sequence="1399" Builds="DefaultBuild"/>
+    <ROW Action="AI_DATA_SETTER" Sequence="1398"/>
+    <ROW Action="AI_DetectSoftware" Sequence="102"/>
+    <ROW Action="AI_AppSearchEx" Sequence="101"/>
+    <ROW Action="AI_VerifyPrereq" Sequence="1101"/>
+    <ROW Action="AI_PrepareShortcutFlags" Condition="(VersionNT &gt; 501) AND ((NOT Installed) OR (Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;)))" Sequence="4501"/>
+    <ROW Action="AI_PinShortcuts" Condition="(VersionNT &gt; 600) AND ((NOT Installed) OR (Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;)))" Sequence="6499"/>
+    <ROW Action="AI_UnpinShortcuts" Condition="(VersionNT &gt; 600) AND (REMOVE = &quot;ALL&quot;)" Sequence="3199"/>
+    <ROW Action="AI_SETPROGRAMFILES64" Condition="VersionNT64" Sequence="748"/>
+    <ROW Action="AI_SETPROGRAMFILES" Condition="NOT VersionNT64" Sequence="749"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Sequence="199"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="747"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="103"/>
+    <ROW Action="AI_DetectSoftware" Sequence="102"/>
+    <ROW Action="AI_AppSearchEx" Sequence="101"/>
+    <ROW Action="AI_DownloadPrereq" Sequence="1296"/>
+    <ROW Action="AI_ExtractPrereq" Sequence="1297"/>
+    <ROW Action="AI_InstallPrerequisite" Sequence="1298"/>
+    <ROW Action="AI_InstallPostPrerequisite" Sequence="1301"/>
+    <ROW Action="AI_CleanPrereq" Sequence="1302"/>
+    <ROW Action="AI_InstallPrePrerequisite" Condition="Installed" Sequence="1299"/>
+    <ROW Action="AI_ChooseTextStyles" Sequence="74"/>
+    <ROW Action="AI_SETPROGRAMFILES64" Condition="VersionNT64" Sequence="748"/>
+    <ROW Action="AI_SETPROGRAMFILES" Condition="NOT VersionNT64" Sequence="749"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 600)" Description="[ProductName] cannot be installed on [WindowsTypeNT60Display]." DescriptionLocId="AI.LaunchCondition.NoNT60" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="AI_DETECTED_DOTNET_VERSION &gt;= AI_REQUIRED_DOTNET_VERSION" Description="[ProductName] cannot be installed on systems with .NET Framework version lower than [AI_REQUIRED_DOTNET_DISPLAY]." DescriptionLocId="AI.LaunchCondition.DotNET" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="AI_DETECTED_INTERNET_CONNECTION" Description="[ProductName] requires an active Internet connection for installation. Please check your network configuration and proxy settings." DescriptionLocId="AI.LaunchCondition.Internet" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="SETUPEXEDIR OR (REMOVE=&quot;ALL&quot;)" Description="This package can only be run from a bootstrapper." DescriptionLocId="AI.LaunchCondition.RequireBootstrapper" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegLocatorComponent">
+    <ROW Signature_="AI_EXE_PATH_CU" Root="1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+    <ROW Signature_="AI_EXE_PATH_LM" Root="2" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="AI_ExePath" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Value="[AI_SETUPEXEPATH]" Component_="AI_ExePath"/>
+    <ROW Registry="AdvancedInstaller" Root="-1" Key="Software\Caphyon\Advanced Installer" Name="\"/>
+    <ROW Registry="Caphyon" Root="-1" Key="Software\Caphyon" Name="\"/>
+    <ROW Registry="LZMA" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA" Name="\"/>
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductCode" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]" Name="\"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="ProductVersion" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="Azmoon" Directory_="DesktopFolder" Name="Azmoon" Component_="Azmoon.exe_4" Target="[#Azmoon.exe_4]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="UninstallProductNameProductVersion" Directory_="APPDIR" Name="UNINST~1.0|Uninstall [|ProductName] [|ProductVersion]" Component_="ProductInformation" Target="[SystemFolder]msiexec.exe" Arguments="/x [ProductCode]" Hotkey="0" Icon_="SystemFoldermsiexec.exe" IconIndex="0" ShowCmd="1" CustomFlags="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="appinstaller"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="B8EEC2941DA417BBEA51B54B6A19917" DisplayName="SQL Server Express 2019" VersionMin="15.0" SetupFileUrl="https://download.microsoft.com/download/8/4/c/84c6c430-e0f5-476d-bf43-eaaa222a72e0/SQLEXPR_x64_ENU.exe" Location="1" ExactSize="268090448" WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86" WinNT64Versions="Windows 7 x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64" Operator="1" ComLine="/UpdateEnabled=False" NoUiComLine="/q /IACCEPTSQLSERVERLICENSETERMS /ACTION=Install /FEATURES=SQLEngine /INSTANCENAME=SQLEXPRESS" Options="xk" MD5="72106c9315ee09661e6c1bc09ab6c267" TargetName="SQL Server Express 2019"/>
+    <ROW PrereqKey="B96F93FA27E74B02866727AAE83982D0" DisplayName=".NET Framework 4.8" SetupFileUrl="https://download.visualstudio.microsoft.com/download/pr/014120d7-d689-4305-befd-3cb711108212/0fd66638cde16859462a6243a4629a50/ndp48-x86-x64-allos-enu.exe" Location="1" ExactSize="117380440" WinNTVersions="Windows 7 RTM x86, Windows 8 x86, Windows 10 version 1507 x86, Windows 10 version 1511 x86, Windows 10 version 1903 x86, Windows 10 version 1909 x86, Windows 10 version 2004 x86, Windows 10 version 20H2 x86, Windows 10 version 21H1 x86, Windows 10 version 21H2 x86, Windows 10 version 22H2 x86" WinNT64Versions="Windows 7 RTM x64, Windows Server 2008 R2 RTM x64, Windows 8 x64, Windows 10 version 1507 x64, Windows 10 version 1511 x64, Windows 10 version 1903 x64, Windows 10 version 1909 x64, Windows 10 version 2004 x64, Windows 10 version 20H2 x64, Windows 10 version 21H1 x64, Windows 10 version 21H2 x64, Windows 10 version 22H2 x64, Windows Server 2022 x64, Windows 11 x64" Operator="1" NoUiComLine="/q /norestart" Options="xky" MD5="aebcb9fcafa2becf8bb30458a7e1f0a2" TargetName=".NET Framework 4.8"/>
+    <ATTRIBUTE name="PrereqsOrder" value="B96F93FA27E74B02866727AAE83982D0 B8EEC2941DA417BBEA51B54B6A19917"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="B8EEC2941DA417BBEA51B54B6A19917Vers" Prereq="B8EEC2941DA417BBEA51B54B6A19917" SearchType="2" SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\150\SQL2019\CurrentVersion\Version" VerMin="15.0.4013.40" Order="1" Property="PreReqSearch_B8EEC2941DA417BBEA51B5"/>
+    <ROW SearchKey="B96F93FA27E74B02866727AAE83982D0Release" Prereq="B96F93FA27E74B02866727AAE83982D0" SearchType="9" SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\Release" RefContent="G528048" Order="1" Property="PreReqSearch_B96F93FA27E74B02866727"/>
+  </COMPONENT>
+</DOCUMENT>
